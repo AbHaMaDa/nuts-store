@@ -1,0 +1,60 @@
+/* ================= تنسيق Collection Spotlight بدون أي تعارض مع التخطيط الداخلي ================= */
+.evershop-collection-spotlight {
+  max-width: 1320px !important;
+  margin-inline: auto !important;
+  padding: 36px 24px !important;
+
+  /* جريد المنتجات جوه الـ Spotlight في الشاشات الكبيرة */
+  .product__grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 16px !important;
+    width: 100% !important;
+  }
+}
+
+/* صورة السبوت لايت: الويدجت بيخليها تتمدد على ارتفاع عمود النص
+   (lg:h-full) فبتبقى ضخمة — ثبّتناها بنسبة ثابتة + حواف مدورة */
+.evershop-collection-spotlight__image-wrapper {
+  aspect-ratio: 1 / 1 !important;
+  height: auto !important;
+  border-radius: 16px !important;
+  overflow: hidden !important;
+}
+
+@media (min-width: 600px) and (max-width: 1023px) {
+  .evershop-collection-spotlight__image-wrapper {
+    aspect-ratio: 16 / 9 !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .evershop-collection-spotlight__image-wrapper {
+    aspect-ratio: 4 / 3 !important;
+  }
+}
+
+/* التابلت ومقاس تابلت المحرر (600px – 1023px): عمودين منتجات
+   (3 أعمدة كانت تعطي كارت يتيمًا مع previewCount=4) */
+@media (min-width: 600px) and (max-width: 1023px) {
+  .evershop-collection-spotlight {
+    padding: 28px 20px !important;
+
+    .product__grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+      gap: 14px !important;
+    }
+  }
+}
+
+/* الموبايل (أقل من 600px): عمودين منتجات زي Collection Stack */
+@media (max-width: 599px) {
+  .evershop-collection-spotlight {
+    padding: 22px 14px !important;
+
+    .product__grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+      gap: 10px !important;
+    }
+  }
+}

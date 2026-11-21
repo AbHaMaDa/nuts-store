@@ -1,0 +1,5 @@
+{
+  "methods": ["GET", "PATCH"],
+  "path": "/attributes/:id/i18n",
+  "access": "private"
+}

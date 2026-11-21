@@ -1,0 +1,73 @@
+/* ================= تنسيق Collection Stack في الصفحة الرئيسية ================= */
+.evershop-collection-stack {
+  max-width: 1320px !important;
+  margin-inline: auto !important;
+  padding: 36px 24px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 36px !important;
+
+  /* كل صف كوليكشن */
+  .evershop-collection-stack__row {
+    width: 100% !important;
+  }
+
+  /* رأس الصف (العنوان + رابط عرض الكل) */
+  .evershop-collection-stack__row-header {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    gap: 16px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .evershop-collection-stack__heading {
+    font-size: 1.55rem !important;
+    font-weight: 800 !important;
+    color: var(--crispa-text) !important;
+    margin: 0 !important;
+    text-align: start !important;
+  }
+
+  /* الجريد الحقيقي (.product__grid) + جريد المعاينة (__items): 4 أعمدة في الديسكتوب */
+  .evershop-collection-stack__row .product__grid,
+  .evershop-collection-stack__items {
+    display: grid !important;
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+    gap: 20px !important;
+    align-items: stretch !important;
+  }
+}
+
+/* التابلت (600px – 1023px): عمودين — يقسم العدد بالتساوي
+   (countPerRow=4 أو 8 تعطي صفوفًا مكتملة بدل كروت يتيمة) */
+@media (min-width: 600px) and (max-width: 1023px) {
+  .evershop-collection-stack {
+    padding: 28px 20px !important;
+    gap: 28px !important;
+
+    .evershop-collection-stack__row .product__grid,
+    .evershop-collection-stack__items {
+      grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+      gap: 16px !important;
+    }
+  }
+}
+
+/* الموبايل (أقل من 600px): عمودين جنب بعض */
+@media (max-width: 599px) {
+  .evershop-collection-stack {
+    padding: 22px 14px !important;
+    gap: 24px !important;
+
+    .evershop-collection-stack__heading {
+      font-size: 1.25rem !important;
+    }
+
+    .evershop-collection-stack__row .product__grid,
+    .evershop-collection-stack__items {
+      grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+      gap: 10px !important;
+    }
+  }
+}

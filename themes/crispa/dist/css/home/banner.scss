@@ -1,0 +1,156 @@
+/* ================= 1. الديسكتوب والآيباد برو الكبير (1024px فأكبر) ================= */
+.evershop-banner {
+  position: relative !important;
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      270deg,
+      rgba(44, 36, 30, 0.48) 0%,
+      rgba(44, 36, 30, 0.2) 45%,
+      rgba(44, 36, 30, 0) 75%
+    );
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  /* في الإنجليزي الكلام على الشمال — نقلب التدرج عشان الغماوة تفضل ورا النص */
+  html[dir="ltr"] &::after {
+    background: linear-gradient(
+      90deg,
+      rgba(44, 36, 30, 0.48) 0%,
+      rgba(44, 36, 30, 0.2) 45%,
+      rgba(44, 36, 30, 0) 75%
+    );
+  }
+
+  .evershop-banner__figure {
+    width: 100% !important;
+    display: block !important;
+  }
+
+  /* حاوية الكلام على جهة بداية السطر (يمين في العربي / شمال في الإنجليزي) */
+  .evershop-banner__content {
+    position: absolute !important;
+    top: 50% !important;
+    inset-inline-end: 6% !important;
+    inset-inline-start: auto !important;
+    bottom: auto !important;
+    transform: translateY(-50%) !important;
+    width: min(540px, 48%) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    justify-content: center !important;
+    gap: 12px !important;
+    z-index: 2 !important;
+  }
+
+  /* إجبار كل النصوص جوه البانر تبدأ من اليمين في العربي وتلتزم باتجاه اللغة */
+  .evershop-banner__content > * {
+    width: 100% !important;
+    direction: inherit !important;
+    text-align: start !important;
+  }
+
+  /* الزرار يبدأ من نفس خط بداية الكلام */
+  .evershop-banner__content a,
+  a {
+    width: auto !important;
+    align-self: flex-start !important;
+    margin-top: 6px !important;
+    background-color: var(--crispa-primary) !important;
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    font-size: 0.95rem !important;
+    padding: 12px 28px !important;
+    border-radius: 999px !important;
+    border: none !important;
+    text-decoration: none !important;
+    box-shadow: 0 8px 20px rgba(200, 90, 40, 0.3) !important;
+    transition: background-color 0.2s ease, transform 0.2s ease !important;
+
+    &:hover {
+      background-color: var(--crispa-primary-hover) !important;
+      transform: translateY(-2px);
+    }
+  }
+}
+/* ================= 2. الآيباد والتابلت ومقاس تابلت المحرر (600px – 1023px) ================= */
+@media (min-width: 600px) and (max-width: 1023px) {
+  .evershop-banner {
+    &::after {
+      background: radial-gradient(
+        circle at center,
+        rgba(44, 36, 30, 0.38) 0%,
+        rgba(44, 36, 30, 0.52) 100%
+      );
+    }
+
+    .evershop-banner__content {
+      top: 50% !important;
+      left: 50% !important;
+      right: auto !important;
+      transform: translate(-50%, -50%) !important;
+      width: min(580px, 88%) !important;
+      align-items: center !important;
+      gap: 10px !important;
+    }
+
+    .evershop-banner__content > * {
+      text-align: center !important;
+    }
+
+    .evershop-banner__content .evershop-banner__heading {
+      font-size: 1.6rem !important;
+      line-height: 1.35 !important;
+    }
+
+    .evershop-banner__content a,
+    &.evershop-banner a {
+      align-self: center !important;
+      margin-inline: auto !important;
+      padding: 11px 28px !important;
+      font-size: 0.92rem !important;
+    }
+  }
+}
+/* ================= 3. الموبايل (أقل من 600px): توسيط متوازن في الجزء العلوي ================= */
+@media (max-width: 599px) {
+  .evershop-banner {
+    &::after {
+      background: linear-gradient(
+        180deg,
+        rgba(44, 36, 30, 0.45) 0%,
+        rgba(44, 36, 30, 0.2) 60%,
+        rgba(44, 36, 30, 0) 100%
+      );
+    }
+
+    .evershop-banner__content {
+      top: 12% !important; /* نفس ارتفاع السلايدر بالظبط */
+      right: 0 !important;
+      left: 0 !important;
+      bottom: auto !important;
+      transform: none !important;
+      width: 100% !important;
+      align-items: center !important;
+      padding: 16px 20px !important;
+      gap: 10px !important;
+    }
+
+    .evershop-banner__content > * {
+      text-align: center !important;
+      margin-inline: auto !important;
+    }
+
+    .evershop-banner__content a,
+    &.evershop-banner a {
+      align-self: center !important;
+      margin-inline: auto !important;
+      padding: 12px 32px !important;
+    }
+  }
+}

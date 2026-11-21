@@ -1,0 +1,208 @@
+/* ================= 1. الشاشات الكبيرة (1024px فأكبر): بداية الكلام من اليمين زي البانر ================= */
+.evershop-slideshow__overlay {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  display: block !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  background: linear-gradient(
+    270deg,
+    rgba(44, 36, 30, 0.48) 0%,
+    rgba(44, 36, 30, 0.2) 45%,
+    rgba(44, 36, 30, 0) 75%
+  ) !important;
+}
+
+/* في الإنجليزي الكلام على الشمال — نقلب التدرج عشان الغماوة تفضل ورا النص */
+html[dir="ltr"] .evershop-slideshow__overlay {
+  background: linear-gradient(
+    90deg,
+    rgba(44, 36, 30, 0.48) 0%,
+    rgba(44, 36, 30, 0.2) 45%,
+    rgba(44, 36, 30, 0) 75%
+  ) !important;
+}
+
+.evershop-slideshow__content {
+  position: absolute !important;
+  top: 50% !important;
+  inset-inline-end: 6% !important;
+  inset-inline-start: auto !important;
+  bottom: auto !important;
+  transform: translateY(-50%) !important;
+  width: min(540px, 48%) !important;
+  max-width: min(540px, 48%) !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  justify-content: center !important;
+  direction: inherit !important;
+  text-align: start !important;
+  gap: 12px !important;
+  z-index: 2 !important;
+
+  > *,
+  .evershop-slideshow__eyebrow,
+  .evershop-slideshow__heading,
+  .evershop-slideshow__subtext {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-inline: 0 !important;
+    direction: inherit !important;
+    text-align: start !important;
+  }
+
+  .evershop-slideshow__eyebrow {
+    letter-spacing: 0.14em !important;
+    margin: 0 !important;
+  }
+
+  .evershop-slideshow__heading {
+    font-weight: 700 !important;
+    letter-spacing: -0.01em !important;
+    margin: 0 !important;
+  }
+
+  .evershop-slideshow__subtext {
+    line-height: 1.7 !important;
+    margin: 0 !important;
+  }
+}
+
+.evershop-slideshow__ctas {
+  width: 100% !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  direction: inherit !important;
+  justify-content: flex-start !important;
+  gap: 10px !important;
+  margin-top: 6px !important;
+
+  .evershop-slideshow__cta {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: var(--crispa-primary) !important;
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    font-size: 0.95rem !important;
+    padding: 12px 28px !important;
+    border-radius: 999px !important;
+    border: none !important;
+    text-decoration: none !important;
+    box-shadow: 0 8px 20px rgba(200, 90, 40, 0.3) !important;
+    transition: background-color 0.2s ease, transform 0.2s ease !important;
+
+    &:hover {
+      background-color: var(--crispa-primary-hover) !important;
+      transform: translateY(-2px);
+    }
+  }
+
+  .evershop-slideshow__cta:not(:first-child) {
+    background-color: rgba(255, 255, 255, 0.92) !important;
+    color: #2c241e !important;
+    box-shadow: none !important;
+
+    &:hover {
+      background-color: #ffffff !important;
+    }
+  }
+}
+
+/* ================= 2. التابلت ومقاس تابلت المحرر (600px – 1023px): توسيط كامل في النص ================= */
+@media (min-width: 600px) and (max-width: 1023px) {
+  .evershop-slideshow__overlay {
+    background: radial-gradient(
+      circle at center,
+      rgba(44, 36, 30, 0.38) 0%,
+      rgba(44, 36, 30, 0.52) 100%
+    ) !important;
+  }
+
+  .evershop-slideshow__content {
+    top: 50% !important;
+    left: 50% !important;
+    right: auto !important;
+    bottom: auto !important;
+    transform: translate(-50%, -50%) !important;
+    width: min(580px, 88%) !important;
+    max-width: min(580px, 88%) !important;
+    align-items: center !important;
+    text-align: center !important;
+    gap: 10px !important;
+
+    > *,
+    .evershop-slideshow__eyebrow,
+    .evershop-slideshow__heading,
+    .evershop-slideshow__subtext {
+      text-align: center !important;
+      margin-inline: auto !important;
+    }
+
+    .evershop-slideshow__heading {
+      font-size: 1.6rem !important;
+      line-height: 1.35 !important;
+    }
+
+    .evershop-slideshow__subtext {
+      font-size: 0.95rem !important;
+    }
+  }
+
+  .evershop-slideshow__ctas {
+    justify-content: center !important;
+    align-items: center !important;
+
+    .evershop-slideshow__cta {
+      padding: 11px 28px !important;
+      font-size: 0.92rem !important;
+    }
+  }
+}
+/* ================= 3. الموبايل (أقل من 600px): توسيط متوازن في الجزء العلوي ================= */
+@media (max-width: 599px) {
+  .evershop-slideshow__overlay {
+    background: linear-gradient(
+      180deg,
+      rgba(44, 36, 30, 0.45) 0%,
+      rgba(44, 36, 30, 0.2) 60%,
+      rgba(44, 36, 30, 0) 100%
+    ) !important;
+  }
+
+  .evershop-slideshow__content {
+    top: 12% !important; /* نزلناه من 0% لـ 12% عشان ما يبقاش لازق فوق */
+    right: 0 !important;
+    left: 0 !important;
+    bottom: auto !important;
+    transform: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    align-items: center !important;
+    text-align: center !important;
+    padding: 16px 20px !important;
+    gap: 10px !important;
+
+    > *,
+    .evershop-slideshow__eyebrow,
+    .evershop-slideshow__heading,
+    .evershop-slideshow__subtext {
+      text-align: center !important;
+      margin-inline: auto !important;
+    }
+  }
+
+  .evershop-slideshow__ctas {
+    justify-content: center !important;
+    align-items: center !important;
+
+    .evershop-slideshow__cta {
+      padding: 12px 32px !important;
+    }
+  }
+}

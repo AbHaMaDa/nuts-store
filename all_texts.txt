@@ -1,0 +1,2154 @@
+% of the product price
+(Guest Checkout)
+(envelope)
+(list)
+(optional)
+(product unavailable)
+(unavailable)
++ Add Line
++ Add Method
++ Add Rate
++ Add a primary CTA
++ Add a read-more link
++ Add a secondary CTA
++ Add placement
++ Add secondary button
++ Attach Provider
++ New package
+, last updated
+0 for flat envelopes
+1 change published.
+1 change will go live immediately.
+1 child widget
+1 op total
+1 pending op
+1 pending op on
+2 (1×2)
+3
+4
+4 (2×2)
+404 Page Not Found
+A
+A coupon is already applied
+A group needs at least one sub-field
+A horizontal rule centred in the spacing band.
+A list of best selling products
+A list of customers who have placed the most orders
+A package is required for shippable products
+A pair must co-occur in at least this many orders.
+A regular expression the value must match.
+A rollout plan is changing this landing page. Only its published content is copied.
+A rollout plan saves your current edits as a snapshot and applies them automatically during a scheduled window.
+A scrim behind the overlay text for legibility. Dark / gradient flip the text to white automatically.
+A second short paragraph if the story needs it.
+A short description for this row
+A short description shown on the category page
+A short summary shown in listings
+A short, quotable line.
+Above 1 = bought together more than chance. Filters ubiquitous bestsellers.
+Accepted values
+Access key ID
+Account information
+Account menu
+Action
+Actions
+Active
+Active Filters
+Add
+Add FAQ group
+Add Products
+Add Rate
+Add Shipping Method
+Add Tax Rate
+Add Variant
+Add a call to action
+Add a meta description to control the text shown here.
+Add a note to your order
+Add a slide to get started.
+Add a store email
+Add address API not available
+Add announcement
+Add collection
+Add column
+Add custom field
+Add field
+Add group
+Add item
+Add link
+Add menu item
+Add new address
+Add option
+Add product
+Add products
+Add products to this category by selecting them from the list below.
+Add prose
+Add question
+Add rate
+Add some items to get started
+Add sub-category
+Add sub-field
+Add sub-item
+Add tile
+Add to Cart
+Add to cart
+Add type override
+Add your first slide
+Added
+Adding...
+Address
+Address 2
+Address Book
+Address book
+Address has been deleted successfully!
+Address has been saved successfully!
+Address has been updated successfully!
+Address line 2
+Address line 3
+Addresses
+Adds target=_blank rel=noopener noreferrer.
+Admin panel language
+Affects 1 page
+Alignment
+Aligns the copy panel content.
+All
+All categories
+All countries
+All items fulfilled
+All landing pages
+All pages
+All posts
+All products
+All registered providers are already attached to this zone.
+All routes
+All severities
+All statuses
+All types
+Allow guest checkout
+Allow multiple
+Allow multiple open
+Allowed file types
+Already expired
+Already have an account?
+Alt text
+Always required
+Always shown first, in this order, before any rules fill the remaining slots.
+Amazon S3 / S3-compatible
+Amount must be greater than or equal to 0
+An import of this type is running. Upload a new file when it finishes, or cancel it.
+An unexpected error occurred. Please try again.
+Analytics
+Announcements
+Another import is running. Only one import runs at a time.
+Answer
+Appearance
+Applied to the rendered menu element.
+Applies to all products in this category that inherit their rules. Products with their own override are unaffected.
+Applies to posts in this category.
+Apply
+Apply Filters
+Apply a condition?
+Apply all edits to the live storefront immediately
+Approve
+Approved
+Are you sure you want to mark the selected orders as shipped?
+Are you sure?
+Area
+Area is required
+Arrows
+As the country requires
+Aspect ratio
+Asymmetric
+Asymmetric makes the first tile span 2 columns.
+At least one country is required
+Attach
+Attached Providers
+Attribute Group
+Attribute Name
+Attribute code is required
+Attribute code is used in API and must be unique
+Attribute created successfully!
+Attribute group
+Attribute name is required
+Attribute options
+Attributes
+Author
+Authorize only
+Auto
+Auto matches the item count, capped at 4.
+Auto-saves while you edit
+Automatic (co-purchase data)
+Autoplay
+Autoplay delay
+Available shipping methods will appear once you provide your address details
+Azure Blob Storage
+Back To Dashboard
+Back to blog
+Back to home
+Back to orders
+Background
+Background color
+Banner Image
+Banner link
+Bars
+Base calculation address
+Based on cart subtotal
+Based on cart weight
+Based on the last saved configuration.
+Basic configuration
+Behavior
+Below
+Below the thresholds, the shelf shows category and store bestsellers instead of rendering nothing.
+Best Sellers
+Best customers
+Between 1 and 12 — 3 to 5 works best.
+Between 10 and 1000.
+Big card — the headline of the grid.
+Billing Address
+Billing address
+Black
+Blog
+Blog Categories
+Blog Comments
+Blog Home
+Blog Posts
+Blog Tags
+Blog category
+Blog post
+Blog tag
+Blush
+Body
+Boolean
+Border
+Bottom
+Boxed
+Branding
+Bucket
+Bucket is required
+Bucket name
+Build in page builder
+Built-in shipping methods with per-zone rates. Attach Core to a zone first under Settings → Shipping; then add methods here and configure their rates per zone.
+Button label
+Button link
+Buy X get Y
+Buy qty
+Buy qty is required
+By
+CMS
+COLLECTION
+Calculation type
+Call to action
+Call to actions
+Can not change the attribute group of a product that is already in a variant group.
+Can not process payment. Please try again later.
+Cancel
+Cancel Order
+Cancel renaming
+Cancel reply
+Cancel rollout
+Cancel rollout plan?
+Cancel rollout plan…
+Cancel shipment
+Cancel the import
+Cancel the upload
+Cancel this import?
+Cancel this shipment?
+Canceled
+Canceling: the import stops after the row it is working on.
+Cancelled
+Cannot add billing address: cart not initialized
+Cannot add contact info: cart not initialized
+Cannot add payment method: cart not initialized
+Cannot add shipping address: cart not initialized
+Cannot add shipping method: cart not initialized
+Cannot add shipping method: providerCode is required
+Cannot apply coupon: cart not initialized
+Cannot remove coupon: cart not initialized
+Canvas device width
+Capture
+Capture Payment
+Carrier
+Carrier hint for fulfillment — never shown at checkout. NewShipmentDialog uses this to pre-select the carrier.
+Carrier is required
+Cart ID is required to checkout
+Cart is not initialized
+Cash On Delivery
+Cash On Delivery Payment
+Catalog
+Catalog prices include tax
+Catalog settings have been saved successfully!
+Catalog, Search
+Categories
+Category
+Category Image
+Category Name
+Category created successfully!
+Category name is required
+Category, author, tags and thumbnail.
+Center
+Centered
+Change
+Change edit scope
+Charcoal
+Check again
+Check out our latest products with special discounts.
+Check that image URLs can be reached while validating (slower)
+Checked
+Checking
+Checking the file again before the import...
+Checking the homepage…
+Checking the rows against the store...
+Checkout
+Checkout cannot complete: none of your shipping zones covers a country you sell to.
+Choose Attribute Groups
+Choose Categories
+Choose Collections
+Choose Product SKU
+Choose SKU
+Choose SKUs
+Choose a CSV file...
+Choose between discarding the whole draft or just this page
+Choose how much of your unpublished work to discard. The published storefront is not affected.
+Choose the events to send to this URL. Order, shipment and customer events include personal data such as names, emails and addresses.
+Choose where you ship and how much you charge for shipping.
+City
+Clear
+Clear All
+Clear Filters
+Clear all
+Clear categories
+Clear filter
+Clear filters
+Click or drag to add
+Client ID
+Client Secret
+Close
+Close details
+Close fullscreen view
+Close menu
+Close settings
+Close the earlier import?
+Close — continue draft
+Closed — no new comments
+Cms Pages
+Co-purchase recommendations are trusted only above these thresholds. Defaults suit small stores — raising them means fewer, stronger suggestions.
+Co-purchase statistics recomputed
+Code
+Collapse left rail
+Collapse panel
+Collection
+Collection Code
+Collection Name
+Collection code is required
+Collection code must be alphanumeric and can include underscores or dashes.
+Collection created successfully!
+Collection name
+Collections
+Color
+Column
+Column layout
+Column title
+Columns
+Columns (desktop)
+Comma-separated; renders the value as a dropdown.
+Comment
+Comment Policy
+Comments
+Commerce
+Company
+Complete Order
+Completed
+Compound
+Computed from orders
+Condition
+Confidence
+Configurable
+Configure
+Configure URL key and meta information for this blog category.
+Configure rate
+Configure the available payment methods
+Configure the tax classes that will be available to your customers at checkout.
+Configure your Cash On Delivery payment gateway settings
+Configure your Paypal payment gateway settings
+Configure your Stripe payment gateway settings
+Configure your store information
+Confirm
+Conflicts with:
+Connection string
+Connection string is required
+Consent
+Consent text
+Contact Information
+Contact for pricing
+Contact information
+Contact messages
+Contain
+Container
+Container access
+Content
+Content column width.
+Content position
+Continue Shopping
+Continue a saved rollout plan
+Continue shopping
+Continue to payment
+Continue without saving
+Continue your draft
+Continue?
+Control how products appear in storefront listings.
+Control when this landing page is published. Leave empty for no limit.
+Conveniently pay with cash at your doorstep when your order is delivered.
+Cookie consent
+Copied
+Copied!
+Copy
+Copy URL
+Copy it from the Azure portal: sign in, open your storage account, then Security + networking → Access keys → Connection string.
+Copy link
+Core Shipping
+Cost
+Cost is required
+Could not check the homepage.
+Could not copy the secret
+Could not pin the product
+Could not start fresh
+Count is required
+Countries
+Country
+Country is required
+County
+Coupon Code
+Coupon applied successfully!
+Coupon code can only contain letters, numbers, underscores, and hyphens
+Coupon code is required
+Coupon created successfully!
+Coupon removed successfully!
+Coupons
+Cover
+Cover image
+Cream
+Create
+Create A New Customer
+Create New Package
+Create New Tax Class
+Create New Zone
+Create a key in the Google Cloud Console: IAM & Admin → Service Accounts → create or pick an account with the Storage Object Admin role on the bucket → Keys → Add key → JSON. Paste the whole downloaded file here.
+Create a new attribute
+Create a new category
+Create a new collection
+Create a new coupon
+Create a new group
+Create a new landing page
+Create a new package
+Create a new page
+Create a new post
+Create a new product
+Create a new tag
+Create a new variant for this product.
+Create a new webhook
+Create a new widget
+Create a variant group
+Create account
+Create an access key in your storage provider console. For AWS: sign in to the AWS Console, open IAM → Users → your user → Security credentials → Create access key.
+Create an account
+Create and update
+Create method
+Create new tax class
+Create rollout plan
+Create shipment
+Created
+Created At
+Currency
+Current
+Custom CSS classes
+Custom CSS classes for the text block
+Custom URL
+Custom color
+Custom endpoint
+Custom field created
+Custom field updated
+Custom fields
+Custom fields (JSON)
+Custom fields saved
+Custom rules for this product
+Customer
+Customer Email
+Customer Information
+Customer Setting
+Customer Settings
+Customer accounts, checkout and addresses
+Customer addresses
+Customer conditions
+Customer does not have any order yet.
+Customer emails
+Customer groups
+Customer notes
+Customers
+Daily
+Dark
+Dashboard
+Dashed
+Date
+Decimal precision
+Decrease
+Default
+Default carrier
+Default content position
+Default country
+Default currency for new carts and price display. Existing orders keep their own currency.
+Default language
+Default overlay opacity
+Default overlay tint
+Default package
+Default service code
+Defaults to the picked collection name.
+Delete
+Delete address API not available
+Delete container widget?
+Delete slide
+Delete the selected imports?
+Delete the selected webhooks?
+Delete this
+Delete this import?
+Delete this widget? This will be saved as a pending change you can publish or discard.
+Delete widget?
+Delete zone
+Deleting this
+Deleting this container will also hide
+Delivered
+Deliveries
+Deliveries to keep per webhook
+Delivery log
+Delivery log setting saved
+Department
+Describe the image
+Describes the banner for screen readers and SEO.
+Description
+Description is required
+Desktop
+Detach
+Details
+Dimension unit
+Dimensions
+Disable
+Disabled
+Disabled products will not be visible in the store and cannot be purchased.
+Discard changes on this page only
+Discard everything
+Discard everything in this draft
+Discard failed
+Discard pending changes?
+Discard pending changes…
+Discard this page
+Discarding…
+Discount
+Discount Type
+Discount amount
+Discount amount is required
+Discount percent
+Discount percent is required
+Discount type is required
+Dislay Name
+Dismiss
+Dismiss just-uploaded files
+Display Name
+Display name
+Display on Frontend?
+Displayed in uppercase to shoppers.
+Displays the mobile sidebar.
+District
+Divider line
+Do/Si
+Done
+Done.
+Dots
+Download file with errors
+Draft
+Draft — not scheduled
+Drag to reorder
+Drag to resize
+Drag widgets into each column. Children re-flow when you change the ratio.
+Dresses
+Duplicate
+Dwell time
+Each row places this widget on one page, in one area, with its own sort order. Lower numbers appear first.
+Edit
+Edit Address
+Edit Shipping Zone
+Edit Tax Rate
+Edit Variant
+Edit Zone
+Edit against the live storefront. Publish immediately or save as a rollout plan.
+Edit custom field
+Edit field settings
+Edit package
+Edit rollout schedule
+Edit tracking info
+Edit variant
+Editable routes
+Editing
+Editorial copy
+Edits to a shared widget update every route it appears on.
+Eircode
+Email
+Email (not published)
+Email a shipment confirmation
+Email a shipment confirmation with tracking details
+Email is required
+Emirate
+Empty
+Empty package weight
+Empty weight
+Enable
+Enable rule-based related products
+Enable this landing page to make it visible on the storefront.
+Enable this page to make it visible on the frontend.
+Enable when the product prices you enter already include tax.
+Enable?
+Enabled
+End
+End Date
+End date
+End time is invalid.
+End time must be after start time.
+Enter Category Name
+Enter Collection Name
+Enter Meta Description
+Enter Meta Title
+Enter Meta description
+Enter Meta title
+Enter SKU
+Enter URL Key
+Enter URL key
+Enter a size
+Enter a size greater than zero
+Enter a type or remove the row
+Enter a valid GA4 Measurement ID, e.g. G-XXXXXXXXXX
+Enter attribute code
+Enter attribute name
+Enter category name
+Enter coupon code
+Enter customer emails
+Enter description
+Enter group name
+Enter landing page name
+Enter meta description
+Enter meta title
+Enter page name
+Enter post title
+Enter price
+Enter product name
+Enter purchased amount
+Enter quantity
+Enter tag name
+Enter tax class name
+Enter text
+Enter the quantity
+Enter weight
+Enter your email
+Enter your new password
+Enter your password
+Environment
+Error
+Error loading countries
+Error loading methods
+Error loading packages
+Error loading providers
+Error loading zones
+Errors
+Event
+Events
+EverShop sends a POST request with a JSON body to this URL. It must start with https://.
+EverShop · Back to page builder
+Every delivery is logged, successful or not. This number is how many completed (delivered or canceled) deliveries are kept per webhook; older ones are deleted. Failed deliveries are kept for 30 days, and deliveries still waiting to be sent are never deleted.
+Every page rolls back to the rollout’s saved state.
+Every page rolls back to what the rollout had saved.
+Every product in the store
+Excerpt
+Exclude this product from recommendations
+Expand
+Expand left rail
+Expires
+Eyebrow
+FEATURED
+Fade
+Failed
+Failed to add address
+Failed to add billing address
+Failed to add billing address.
+Failed to add contact info.
+Failed to add item to cart
+Failed to add payment method
+Failed to add payment method.
+Failed to add product to cart
+Failed to add shipping address
+Failed to add shipping address.
+Failed to add shipping method
+Failed to add shipping method.
+Failed to apply coupon
+Failed to attach provider
+Failed to cancel shipment
+Failed to checkout
+Failed to create field
+Failed to create shipment
+Failed to delete address
+Failed to load custom fields
+Failed to mark delivered
+Failed to place order
+Failed to place order. Please try again.
+Failed to remove coupon
+Failed to remove coupon.
+Failed to remove rate
+Failed to remove zone
+Failed to save change
+Failed to save custom fields
+Failed to save rate
+Failed to save zone
+Failed to update address
+Failed to update field
+Failed to update profile
+Failed to update rollout schedule
+Failed to update shipment
+Failed to update tracking info
+Failed to void label
+Failed!
+Family name
+Favicon
+Featured posts
+Fields
+Fields a country leaves optional can be made mandatory here; nothing a country requires is ever made optional.
+Fields applicable to this entity type. Adding a field applies it to all entities of this type.
+File
+File Storage & Uploads
+File details
+File name starts with…
+File storage and service credentials
+Files stored on this server can be lost when it is updated, moved, or fails. For a live store, use S3 or Azure Blob Storage instead.
+Files with other types are rejected at upload. SVG is not offered on purpose — SVG files can contain scripts and are a security risk when served.
+Fill empty slots with bestsellers
+Fill remaining slots with bestsellers
+Filter Products
+Filter by status
+Filters
+Finishing the upload...
+First
+First and last name
+Fix the cause, then resume: the failed rows are tried again and the import continues.
+Fix them to continue: the import starts only on a clean file.
+Fixed discount to entire order
+Fixed discount to specific products
+Flat rate
+Flat rate in cart currency, tax-exclusive.
+Footer
+For S3-compatible services use the provider value (e.g. fsn1 for Hetzner)
+For example: Order sync
+Force path-style
+Forgot your password?
+Found in Google Analytics under Admin → Data Streams → your web stream. Leave empty to disable tracking.
+Free
+Free shipping
+Free shipping ?
+Free shipping on orders over $50
+Free shipping?
+Frequently bought together
+Full Name
+Full Name is required
+Full name
+Fully shipped
+Gap
+General
+General Information
+Get qty
+Get qty is required
+Ghost
+Give Feedback
+Given name
+Global
+Globals
+Go
+Go to Login
+Go to next page
+Go to previous page
+Go to your cart
+Google Analytics 4 Measurement ID
+Google Cloud Storage
+Gradient
+Grid columns.
+Group
+Group Name
+Group heading
+Group name is required
+Groups
+Has conflicts
+Heading
+Headline
+Heads up — 
+Height
+Height is required (0 for envelopes)
+Height must be 0 or greater
+Hello
+Hero · 
+Hidden
+Hidden — disabled or out of stock
+Hidden — same variant group
+Hide from storefront
+Hide global areas
+Hide slide
+Higest tax rate based on cart items
+Highlight global areas on canvas
+How can we help?
+How every monetary amount is rounded across the store.
+I agree that my details may be used to respond to my enquiry.
+ID
+Icon
+Icon size
+If a record already exists
+If new problems are found, nothing is written.
+Image
+Image alt text
+Image aspect
+Image column size
+Image fit
+Image left
+Image only
+Image override
+Image position
+Image right
+Import
+Importing
+In Stock
+Inactive
+Inbox
+Include unpublished pages
+Increase
+Inherit (category or global rules)
+Insert
+Integer
+Interrupted
+Invalid coupon
+Invalid folder name
+Invalid format
+Invalid quantity
+Invalid start
+Invalid window
+Inventory
+Is Filterable?
+Is Required?
+Is compound
+Island
+Item
+Items
+Its products were added to a cart the first time this link was used.
+Its rates will be removed too. This cannot be undone.
+Join us for exclusive offers and order tracking
+Just uploaded
+Keep it
+Key
+Key is required
+L
+LIMITED EDITION
+Label
+Label position
+Label voided
+Landing Pages
+Landing page
+Landing page created successfully!
+Landscape
+Language
+Languages
+Last
+Last result
+Layers
+Layout
+Learn more
+Leave
+Leave a comment
+Leave blank to auto-generate
+Leaving now may drop the most recent edits that haven’t reached the server yet.
+Left
+Length
+Length is required
+Length must be greater than 0
+Lifetime Sales
+Lift
+Light
+Light gray
+Limit
+Limited edition
+Limited · Ends Sunday
+Line color
+Line item
+Linen, cotton, easy stuff.
+Link
+Link URL
+Link label
+Link target
+Links
+Live
+Load more
+Loading
+Loading pages…
+Loading...
+Loading…
+Local file system
+Local storage is not recommended for production
+Log in
+Log out
+Logged in as
+Logging in...
+Logging out...
+Login failed
+Logo
+Logout
+Logout failed
+Long text
+Look like you just started. No bestsellers yet.
+Lower values appear first.
+Lowercase letters, digits, underscore. Immutable.
+M
+MB
+Made by hand, in small batches
+Main menu
+Make parent image a link
+Make whole slide clickable
+Manage Stock
+Manage general information about the collection.
+Manage product images and gallery. Drag and drop to reorder images.
+Manage shipping integrations and their methods (Core, USPS, FedEx, …)
+Manage tax classes and tax rates for different regions.
+Manage the SEO settings of the category.
+Manage the SEO settings.
+Manage the attributes.
+Manage the collections associated with this product.
+Manage the general information of the attribute.
+Manage the general information of the category.
+Manage the general information of the product.
+Manage the inventory settings of the product.
+Manage the products assigned to this category.
+Manage the products assigned to this collection.
+Manage the setting of the attribute.
+Manage the shipping settings of the product.
+Manage the status settings of the category.
+Manage the variant group of the product.
+Managed by configuration (config file or environment variable)
+Manual picks
+Manual picks are ignored in Automatic mode — switch to “Manual first” or “Manual only” to use them.
+Manual picks first, auto-fill the rest
+Manual picks only
+Mark as shipped
+Mark delivered
+Mark read
+Mark shipment as delivered?
+Mark spam
+Mark unread
+Marketing
+Master switch. Items without an icon URL are unaffected.
+Match these attributes
+Max is required
+Max length
+Max of Y
+Max of Y is required
+Max posts
+Max value
+Max width
+Maximum
+Maximum file size
+Maximum quantity is required
+Maximum quantity must be greater than or equal to 0
+Media
+Media library
+Menu items
+Message
+Message is required
+Messages will still be saved and visible under CMS → Contact messages, but no notification email will be sent.
+Meta Description
+Meta Title
+Meta Title is required
+Meta description
+Meta description is required
+Meta title
+Meta title is required
+Method
+Method created
+Method name
+Method name is required
+Method updated
+Methods →
+Min 1, max 12.
+Min 1, max 8.
+Min Price
+Min Weight
+Min is required
+Min length
+Min lift
+Min orders of the product
+Min price is required
+Min times bought together
+Min value
+Min weight is required
+Minimum block height
+Minimum purchase amount
+Minimum purchase qty
+Minimum purchase quantity
+Minimum purchased amount. This only applies to registered customers.
+Minimum quantity
+Minimum quantity is required
+Mint
+Missing name
+Mobile image
+Mobile image (optional)
+Mobile scales down ~⅔ automatically.
+Mode
+Mode and manual picks apply to this variant only — configure siblings identically for group-wide behavior.
+Mode changed — save to update this preview.
+Moderated — hold for review
+Monthly
+More
+More pages
+More problems exist than are listed.
+More publish options
+More rollout actions
+Move down
+Move rule down
+Move rule up
+Move slide down
+Move slide up
+Move up
+Multiselect
+Must be at least 10
+Must be at most 1000
+Must start with a letter; lowercase letters, digits, underscore only
+My account
+Name
+Name and status for this blog category.
+Name format
+Name is required
+Name is required.
+Narrow
+Narrow the countries you sell to?
+Navigation
+Nearest
+Neighborhood
+Never suggest this product alongside others
+New Arrivals
+New Attribute
+New Category
+New Collection
+New Coupon
+New Landing Page
+New Page
+New Product
+New Variant
+New Widget
+New arrivals
+New category
+New changeset
+New column
+New coupon
+New file name, without the extension
+New folder
+New here?
+New import
+New link
+New post
+New rate
+New tag
+New webhook
+Next
+Next slide
+No
+No address data received
+No carriers registered
+No categories yet.
+No changes to save — the rollout matches the editor
+No co-purchase data for this product yet — it accumulates as orders come in. With fallback enabled, the shelf shows bestsellers meanwhile (see below).
+No co-purchase data yet — it is computed nightly, or recompute now.
+No collections
+No collections yet.
+No comments yet. Be the first!
+No coupon to remove
+No custom fields yet.
+No data available
+No default
+No deliveries yet.
+No editable routes.
+No file chosen
+No free shipping
+No image selected
+No import yet. Upload a CSV file to import products, categories, customers or customer addresses.
+No landing pages yet.
+No limit
+No longer available
+No manual picks yet.
+No maximum
+No methods yet — add one to start offering Core shipping.
+No minimum
+No notes from customer
+No packages yet. Create one — shippable products require a package.
+No pages found.
+No pages yet.
+No payment methods available
+No payment required
+No posts match
+No posts yet
+No product to display.
+No products found
+No products yet.
+No referrer
+No routes have opted into page-builder editing yet.
+No select-type attributes exist yet.
+No shipments yet — your order is being prepared.
+No shipping is required for this order
+No shipping methods available
+No shipping options are available for your location
+No shipping required
+No shipping required?
+No slides yet.
+No subdivisions available — whole country is covered.
+No variants match the selected options.
+No webhook yet. Create one to send store events to another system.
+No widgets available.
+No widgets match your search.
+No widgets on this route yet.
+No zones
+No zones found
+Nofollow
+None
+None selected
+Normal
+Not collected (zero-total order)
+Not emailed
+Not required: collect from the first page
+Not set
+Not visible individually
+Not visible to customers
+Nothing is duplicated yet — hit Save to complete the duplication. Leaving this page without saving discards the copy.
+Nothing picked: the latest posts are shown, up to Max posts.
+Nothing to publish
+Nothing to redo on this page
+Nothing to revert — the editor matches the saved state
+Nothing to undo on this page
+Notify customer
+Number
+Number of decimal places prices are rounded to.
+Number of decimal places the tax amount is rounded to.
+Number of products shown per page on category and collection listings.
+Number of products to display.
+Oblast
+Offer
+On tablets the layout is always 2 columns.
+One short supporting sentence.
+One strong line
+Only create
+Only http(s), mailto, tel or relative links are allowed — this link will be ignored on the storefront.
+Only show products in a similar price range
+Only these countries are offered in the address book and at checkout. Shipping also needs a zone that covers the country.
+Only update
+Open homepage in page builder
+Open in new tab
+Open it
+Open menu
+Open page in a new tab
+Open — auto-approve
+Operation failed
+Operator
+Option text
+Option text is required
+Optional
+Optional CDN (e.g. Azure CDN / Front Door) serving the container — lets the container stay private. Files are served as <this URL>/<file path> with no container segment added, so either set the CDN origin path to /<container> (example: https://mystore.azureedge.net) or include the container here (example: https://mystore.azureedge.net/media).
+Optional CDN (e.g. CloudFront) serving the bucket — lets the bucket stay private. Without it, objects must be publicly readable via a bucket policy. Example: https://cdn.mystore.com or https://d111abcdef8.cloudfront.net, a CloudFront distribution with this bucket as its origin. Files are served as <this URL>/<file path>, so the domain must point at the bucket root.
+Optional dropdown links (1 level).
+Optional help text shown to admins.
+Optional sub-heading.
+Optional supporting copy.
+Optional supporting line below the title.
+Optional. Added to the shipping weight for quotes and labels.
+Optional. Clicking the banner navigates here.
+Optional. Displayed after the content; defaults to the content itself.
+Optional. Hidden when empty.
+Optional. Hidden when empty. Pick a category, product, page, or paste a custom URL.
+Optional. Makes the entire row a clickable link.
+Optional. Makes the whole cell clickable.
+Optional. One or two sentences of editorial copy.
+Optional. One short instructional line.
+Optional. Painted behind content. Combine with a tint below for legibility.
+Optional. SVG or raster image. Hidden when icons are turned off globally.
+Optional. Shown above the grid.
+Optional. Shown under the row heading.
+Optional. Swapped in below the 768px breakpoint. Falls back to the image above when empty — typical use is a portrait crop of the same scene.
+Optional. The block auto-hides after this time for live visitors.
+Options
+Order History
+Order Note
+Order Number
+Order Placed
+Order conditions
+Order must contain products matching all conditions below
+Order not found
+Order summary
+Order total
+Orders
+Orders of a product before its data is trusted.
+Organize
+Original image height (px)
+Original image width (px)
+Other
+Other pages keep their pending changes.
+Others
+Our story
+Out of Stock
+Outer spacing around the row. Scales down on mobile.
+Outline
+Overlay
+Overlay copy
+Overlay opacity
+Overlay placement
+Overlay tint
+Overridden on this category
+Overridden on this product
+Override image
+Override image (optional)
+Override the global rules for this category
+Overrides
+Overview of sales data over selected periods
+Overview of total sales and order status over the lifetime of your store
+PIN code
+Package
+Package created
+Package deleted
+Package saved
+Packages
+Padding
+Page
+Page Name
+Page Not Found
+Page builder
+Page builder canvas
+Page created successfully!
+Page is required
+Page name is required
+Page not found
+Page, category, product, or a custom URL.
+Pages
+Parent category
+Parent label
+Parent link
+Parish
+Password
+Password is required
+Paste a URL or a relative path starting with 
+Paste the entire content of the downloaded JSON key file
+Pattern (regex)
+Pause for 20 s after user nav
+Pause on hover
+Pay with PayPal
+Pay with Stripe
+Payment Information
+Payment Method
+Payment Setting
+Payment Status
+Payment mode
+Payment setting saved
+Paypal Payment
+Pending
+Pending start time
+Per file, in megabytes (MB). Leave empty for the default of 10 MB. Applies to every upload in the admin panel — product images, banners, media.
+Per unit
+Per-slide overrides win.
+Per-type overrides
+Percentage discount to entire order
+Percentage discount to specific products
+Phone
+Pick a CMS page to link to.
+Pick a category to link to.
+Pick a collection.
+Pick a landing page to link to.
+Pick a payment method
+Pick a product to link to.
+Pick a start time to schedule this rollout.
+Pick a widget below to insert as a child.
+Pick up where you left off — 1 pending change
+Pin
+Pin drawer open
+Pin — keep drawer open across canvas clicks
+Place Order
+Placements
+Placing Order...
+Please accept before sending
+Please check the highlighted fields
+Please enter a coupon code
+Please enter a valid URL
+Please enter a valid email address
+Please enter your email to receive a reset link
+Please pick a collection
+Please pick a product
+Please provide billing address to proceed
+Please select a collection
+Please select a payment method
+Please select a shipping method
+Please select a valid payment method
+Please select variant options
+Portrait
+Position
+Post Title
+Post comment
+Post created successfully!
+Post title is required
+Post town
+Postal Code
+Postal code
+Postal code is required
+Postcode
+Posts
+Powered by EverShop
+Pre-selected on a new address. Shipping is still limited to the countries your zones cover.
+Prefecture
+Preselected for new products. Exactly one package is the default.
+Preview
+Preview product count
+Previous
+Previous slide
+Price
+Price rounding
+Price rounding, tax calculation, classes & rates
+Price-based tiers
+Pricing & Tax
+Pricing settings have been saved successfully!
+Primary
+Primary button
+Primary navigation — on mobile it collapses into a hamburger menu. Turn off for a simple link list (e.g. a footer), which stays inline on mobile.
+Print Label
+Priority
+Priority is required
+Privacy: drop the referring URL (rel=noreferrer). New-tab links always include this.
+Private (recommended)
+Problem
+Problems
+Problems by type:
+Proceed to checkout
+Processing Payment...
+Product
+Product Description
+Product Name
+Product Status
+Product count
+Product count is required
+Product created successfully
+Product images
+Product is out of stock
+Product listing
+Product listing and image settings
+Product name is required
+Product type
+Product updated successfully
+Products
+Products in this category follow the global related-products rules. Preview what shoppers see from any product’s edit screen.
+Products per page
+Products per row
+Products to show
+Progress
+Promo code
+Promotion
+Proportional allocation based on cart items
+Prose
+Provide the SEO details for the CMS page.
+Provide the SEO details for the landing page.
+Provide the basic information for the CMS page.
+Provide the basic information for the landing page.
+Provider
+Province
+Public base URL
+Public read for blobs
+Publish
+Publish end
+Publish failed
+Publish now
+Publish start
+Publish to the live storefront
+Publishable Key
+Published
+Published posts are visible on the storefront.
+Publishing…
+Pull quote
+Qty
+Qty is required
+Quantity
+Question
+Queued. It will be sent within a minute.
+Quick links
+Rate
+Rate added
+Rate is required
+Rate removed
+Rate status
+Rate updated
+React
+Read
+Read more
+Read more link
+Reading the rows...
+Reason for cancellation
+Reason is required
+Recent orders
+Recently placed orders by this customer
+Recommendations
+Recompute failed
+Recompute now
+Recomputing…
+Redirecting to PayPal...
+Redo (⇧⌘Z) — re-applies the last undone edit on this page
+Redo last undone change on this page
+Reflects the alignment below.
+Refresh the list
+Refund
+Refund amount
+Regenerate
+Regenerate the signing secret?
+Region
+Region is required
+Region restrictions
+Regional & Units
+Regions
+Regions is required
+Regions:
+Registration failed
+Related posts
+Related products
+Related products rules
+Remove
+Remove Zone
+Remove call to action
+Remove item
+Remove override
+Remove placement
+Remove primary CTA
+Remove rate
+Remove read-more link
+Remove secondary CTA
+Remove sub-field
+Remove the schedule — the changeset is preserved
+Remove this rate?
+Removed
+Replace
+Replace homepage
+Replace homepage with this page
+Replace the earlier upload?
+Reply
+Required
+Required by MinIO. Leave off for AWS, Hetzner and R2.
+Required fields
+Required for accessibility.
+Required for the pull-quote variant. Displayed large, styled as a blockquote.
+Required: no cookies until the shopper accepts
+Reset Password
+Reset Your Password
+Resize settings drawer
+Restore my cart
+Restore your cart
+Resume
+Resume continues at the last saved row.
+Resuming...
+Retry
+Revert all pages to saved state
+Revert everything
+Revert this page
+Revert this page only
+Revert to saved state?
+Revert to saved state…
+Reverting…
+Rich text
+Right
+Roll back the changes you have made since this rollout was last saved. The live storefront is unaffected — it already reflects the saved state.
+Roll back the editor to what the rollout currently shows on the storefront
+Root
+Round down
+Round up
+Rounding mode
+Row
+Row appearance
+Row heading
+Rows
+Rules
+Rules fill remaining slots top-down (manual picks always come first). Reorder to change priority.
+Rules for customer accounts, checkout and addresses
+Rules for the Related-products shelf on product pages. Categories and products can override them; manual picks on a product always come first.
+S
+S3-compatible services only (Hetzner, Cloudflare R2, MinIO, DigitalOcean Spaces). Leave empty for AWS.
+SEO
+SEO Information
+SKU
+SKU is required
+SKU must be unique
+Sale
+Sale Statistics
+Same as shipping address
+Same category
+Same collection
+Sandbox
+Save
+Save Settings
+Save anyway
+Save as rollout plan
+Save as rollout plan and leave
+Save as rollout plan…
+Save changes
+Save custom fields
+Save failed
+Save field
+Save method
+Save rate
+Save the new name
+Save your pending edits — the live storefront will catch up
+Saved successfully!
+Saving…
+Scales down on mobile.
+Schedule
+Schedule failed
+Schedule these edits to roll out at a future time
+Scheduled
+Search
+Search Engine Optimization
+Search attribute groups
+Search categories
+Search collections
+Search collections…
+Search engine optimize
+Search for products, orders, and other resources
+Search options
+Search pages
+Search pages…
+Search posts to feature
+Search products
+Search products…
+Search result preview
+Search widgets
+Search widgets…
+Searching...
+Search…
+Second body paragraph (optional)
+Secondary
+Secondary button
+Secret Key
+Secret access key
+Secret copied
+Section heading
+Select
+Select Category
+Select Parent Category
+Select Products by SKU
+Select a carrier
+Select a category
+Select a payment method
+Select a provider first
+Select a provider…
+Select all
+Select an author
+Select an option
+Select at least one event
+Select at least one file type
+Select at least one item to ship
+Select category
+Select countries
+Select groups the attribute belongs to
+Select operator
+Select options
+Select page
+Select products to add to this collection.
+Select regions
+Select shipping method
+Select sort
+Select tags
+Select the items going in this shipment, then add the carrier & tracking.
+Select the list of attribute
+Select this option if the product is a digital product or service that does not require shipping.
+Selected image
+Selected:
+Sell to countries
+Send message
+Send store events to other systems
+Send test event
+Sending
+Service account key
+Set a start time to schedule.
+Set as default
+Set the status and visibility of the product.
+Setting
+Settings
+Severity
+Share
+Shipment
+Shipment Status
+Shipment canceled
+Shipment created
+Shipment marked delivered
+Shipments
+Shipped
+Shipping
+Shipping Address
+Shipping Cost
+Shipping Method
+Shipping Providers
+Shipping Setting
+Shipping address
+Shipping cost is required
+Shipping is not available at the moment. Please contact us to complete your order.
+Shipping provider setting saved
+Shipping tax class
+Shop
+Shop by category
+Shop now
+Shop now →
+Shoppers will see
+Shoppers will see (frequently bought together)
+Shoppers will see no frequently-bought-together products with the current configuration.
+Shoppers will see no related products for this product with the current configuration.
+Shopping cart
+Short Description
+Short text
+Show
+Show consent checkbox
+Show divider
+Show divider between rows
+Show divider line
+Show global areas
+Show icons
+Show less
+Show on routes
+Show on storefront
+Show out of stock products
+Show phone field
+Show products?
+Show slide
+Show subject field
+Show this widget on every page
+Shown
+Shown above all content. Optional.
+Shown above the products. The shelf renders nothing at all when no products qualify.
+Shown after the message is sent.
+Shown in the storefront header. Use a high-resolution PNG with a transparent background — it is scaled to fit your theme automatically and served as optimized WebP.
+Sidebar
+Sides
+Sign In
+Sign in
+Sign in to view your orders
+Signing secret
+Simple
+Single field
+Size
+Size (L × W × H)
+Sku
+Sky
+Slide
+Slideshow
+Slowing down so the store stays fast...
+Small label above the heading.
+Small label above the product name. Optional.
+Social sharing image
+Social sharing preview
+Sold
+Sold out
+Solid
+Some error occurred. Please try again later.
+Someone
+Something changed since the preview. Please review again.
+Something went wrong
+Something went wrong! Please try again.
+Something went wrong. Please refresh the page.
+Something went wrong. Please try again.
+Something wrong. Please try again
+Sort
+Sort By
+Sort Order
+Sort by
+Sort order
+Sort order is required
+Sort order must be a positive number
+Sorting code
+Source: Global settings
+Source: category
+Space between columns.
+Spacing
+Spam
+Square
+Start
+Start a page-builder session
+Start date
+Start import
+Start new changeset
+Start time is invalid.
+Starting
+Starting...
+State
+State / Province
+State Date
+Status
+Status is required
+Stay
+Stay on this page
+Stock
+Stock Availability
+Stop highlighting global areas
+Stopped
+Store Address
+Store Description
+Store Email
+Store Name
+Store Phone Number
+Store Setting
+Store Settings
+Store address
+Store email is not set
+Storefront
+Stripe Payment
+Stripe is not loaded. Please try again.
+Style
+Sub text
+Sub total
+Sub-categories
+Sub-fields
+Sub-items
+Sub-text
+Subheading
+Subject
+Submit
+Submit Cancellation
+Submitting…
+Subtotal
+Suburb
+Success message
+Successfully logged in
+Successfully logged out
+Supports **bold**, _italic_, and line breaks.
+Switch page
+Switch session
+Switching is safe either way: saved addresses keep displaying and are converted when edited.
+System Setting
+System setting saved
+THE SUMMER EDIT
+Tablet
+Tag
+Tag Name
+Tag created successfully!
+Tag name is required
+Tags
+Take 20% off your order
+Take our survey
+Target
+Target Products
+Tax
+Tax Class
+Tax calculation configuration
+Tax class name
+Tax class name is required
+Tax classes
+Tax decimal precision
+Tax rate has been saved successfully!
+Tax rounding level
+Tax rounding mode
+Tax setting has been saved successfully!
+Telephone
+Template
+Test
+Test failure
+Test failure:
+Test success
+Test success:
+Text
+Text color
+Textarea
+Thank you for your order!
+Thanks! Your comment is awaiting moderation.
+Thanks! Your message has been sent.
+The ID of a webhook created in the PayPal developer dashboard, pointing at /api/paypal/webhook. Enables server-side payment confirmation.
+The JSON body that is sent to the URL.
+The Linen Edit
+The Summer Edit
+The URL path segment under /blog/.
+The URL path segment under /blog/category/.
+The URL path segment under /blog/tag/.
+The Upsell shelf reuses these same rules, restricted to products PRICIER than the one being viewed (with the price band percent as the upper cap when enabled) — no bestseller fill, and no upsell for products set to “Manual picks only”.
+The box or envelope this product ships in. Applies to all variants of this product.
+The boxes and envelopes you ship with. Every shippable product references one — its dimensions and empty weight drive shipping quotes and labels.
+The carrier will mark the tracking number as invalid. You will need to purchase a new label if you still intend to ship.
+The conditions related to the customer for the coupon to be applied.
+The conditions related to the order for the coupon to be applied.
+The customer will receive a delivery confirmation email.
+The default package cannot be deleted
+The direction used when rounding prices to the decimal precision.
+The direction used when rounding the calculated tax amount.
+The draft holds 1 saved change you can publish later.
+The draft is deleted.
+The draft itself is deleted.
+The duplicate is created from the last saved version of this product. Your unsaved edits will not be included and will be lost when you leave this page.
+The file and the list of problems are deleted. The rows already imported stay in the store.
+The file is empty.
+The file is still being uploaded. If the upload stops, it is deleted after 10 minutes.
+The file still has errors. Fix them and check again.
+The file was checked again when the import was about to start, and new problems were found.
+The general information about the coupon.
+The height of your original product images. Width ÷ height is the aspect ratio applied to every product image.
+The homepage could not be replaced.
+The homepage has page-specific widget placements. Remove them in the page builder first.
+The import is not in a state where this can be done. The page shows its current state.
+The import stops after the row it is working on. The rows already imported stay in the store.
+The import was deleted.
+The internal name of the landing page shown in the admin panel.
+The job could not run.
+The language of the admin panel, independent of the storefront.
+The link may have expired or already been used.
+The method will no longer apply to this zone.
+The minimum quantity of items required in the order to qualify for this coupon.
+The minimum total amount required for the order to qualify for this coupon.
+The newest first. Failed deliveries can be retried.
+The old secret stops working at once. Update it on the receiving side too, or its signature checks will fail.
+The page could not reach the server. It shows the last state it knew and will try again.
+The page could not reach the server. Try again.
+The page must stay open until the upload ends.
+The page you requested does not exist.
+The post title, status and content.
+The preview shown when a page is shared on social media (Open Graph / Twitter). Recommended 1200×630px (1.91:1), PNG or JPG.
+The products from your saved cart will be added to your current cart.
+The rollout plan
+The secret is shown only once, when the access key is created — copy it from there.
+The size your product images are created at. This sets the reference aspect ratio and the maximum resolution used for product images across the storefront — listings, cart, checkout, and product pages. Each placement fits its width and derives the height from this ratio.
+The small icon in browser tabs. Upload a square PNG of at least 512×512px — the 16/32px icons and the 180px Apple touch icon are generated automatically.
+The tag name.
+The type of discount applied by the coupon.
+The upload did not finish. Check your connection and try again.
+The web addresses (links) of the items you imported are still being set up in the background. For a large file this can take a few minutes. If a page does not open yet, try again later.
+The width of your original product images. 1920px or larger is recommended so the product-page zoom stays sharp on large, high-density screens.
+The zone this rate applies to.
+The zones are kept and flagged, nothing is deleted. Checkout will not offer these countries.
+Their delivery history is deleted too. Are you sure?
+Their files and lists of problems are deleted. The rows already imported stay in the store.
+There is another unfinished import of this type. Close it first.
+There is no attribute to display
+There is no category
+There is no category to display
+There is no collections to display
+There is no comment to display
+There is no coupon to display
+There is no customer to display
+There is no file to display.
+There is no file with errors to download for this import.
+There is no landing page to display
+There is no message to display
+There is no order to display
+There is no page to display
+There is no post to display
+There is no problem to display.
+There is no product to display
+There is no sub folder.
+There is no tag to display
+There is no widget to display
+There was an error fetching attribute groups.
+There was an error fetching categories.
+There was an error fetching collections.
+There was an error fetching file browser APIs.
+There was an error fetching products.
+There was an error:
+These rollout plans change the homepage. Cancel them or wait until they end, then try again.
+This cart link is no longer valid
+This cart was already restored
+This changeset has no operations yet.
+This event is no longer provided. Untick it to remove it.
+This field is required
+This import no longer exists.
+This is the URL path for the CMS page.
+This is the URL path for the landing page.
+This is the address used to calculate tax rates.
+This is the meta title for the CMS page.
+This is the name of the CMS page that will be displayed in the admin panel.
+This is the tax class applied to shipping costs.
+This landing page has no visible widgets in the current theme. The homepage will be empty.
+This landing page is not live (unpublished, scheduled, or expired). The homepage does not use its schedule; the copy goes live as soon as you confirm.
+This page
+This product has no other variants yet.
+This product has some variants like color or size?
+This removes the zone along with its provider attachments and rates. This cannot be undone.
+This route has unpublished changes in your draft
+This tracking link has expired
+This tracking link is no longer valid
+This will be saved as a pending change you can publish or discard.
+Three or four sentences of brand narrative.
+Thumbnail
+Tiered
+Tiles
+Time
+Time each announcement stays visible (in addition to the 400ms slide transition).
+Timezone
+Timezone used to display dates in the store.
+Tint
+Tint opacity
+Tip: import in this order - categories, products, customers, addresses.
+Title
+Titles
+Together
+Toggle Sidebar
+Top
+Total
+Total products
+Total products to show per collection.
+Townland
+Track
+Track shipment →
+Tracking info updated
+Tracking links are good for a limited time. Sign in to your account to see the current status of your order.
+Tracking number
+Transition
+Transition speed
+Two lines of copy explaining why this product is being spotlighted right now.
+Two lines of supporting copy.
+Type
+Type / to see the available blocks
+Type is required
+UPDATE PASSWORD
+URL
+URL Key
+URL Key is required
+URL Key must be lowercase and can only contain letters, numbers, and hyphens
+URL copied
+URL is required
+URL key
+URL key is auto-generated from the name if left blank.
+URL key is auto-generated from the title if left blank.
+URL key is required
+URL key must be lowercase and can only contain alphanumeric characters and hyphens
+Unassign
+Undo (⌘Z) — undoes your last edit on this page
+Undo / Redo
+Undo last change on this page
+Uniform
+Unknown
+Unlink
+Unpin drawer
+Unpin — drawer will close when you click empty canvas
+Unpublish
+Unpublished changes
+Unread
+Unsaved changes
+Untitled
+Untitled page
+Update address API not available
+Update field
+Update profile API not available
+Update the name and active window for this rollout plan. Content edits are managed separately in the editor.
+Update the variant details and attributes here.
+Updated
+Upload
+Upload a file, or paste an image copied from anywhere.
+Upload a file, or paste an image from the clipboard
+Upload a new file
+Upload an image for the category.
+Upload and validate
+Upload rules
+Uploaded
+Uploading
+Use a different billing address
+Use as main menu
+Use code at checkout
+Use store country
+Use type/subtype (video/mp4) or a family (video/*)
+Used Times
+Used below 640 px. Falls back to the main image.
+Used when no image is set.
+Validation
+Value
+Value is required
+Value must be a whole number
+Variant
+Variant Group
+Variant created successfully
+Variant updated successfully
+Vertical alignment
+Vertical line between cells.
+View All Products
+View JSON
+View all
+View all customers
+View all label
+View all link
+View all →
+View backup
+View customer account
+View payload
+Village
+Village/Township
+Visibility
+Visibility determines where the product appears in the store. It does not affect the saleability of the product.
+Visible to customer
+Visitors will see the new layout on their next page load.
+Void Label
+Void label
+Void this shipping label?
+Waiting for the check to start...
+Ward
+Ward / Neighbourhood
+Warning
+Warnings
+We are sorry. There was a problem completing your payment. If you approved the payment at PayPal, please do not try again — contact us and we will confirm your payment status.
+We could not find this order. It may have been removed, or it may belong to a different account.
+We could not verify this link. If you received it in an email from us, please try again from the most recent message, or sign in to your account.
+We have sent you an email with a link to reset your password. Please check your inbox.
+Webhook ID
+Webhook Secret Key
+Webhook created successfully!
+Webhooks
+Weekly
+Weight
+Weight must be 0 or greater
+Weight must be a positive number
+Weight unit
+Weight-based tiers
+Welcome back — sign in to your account.
+What can be uploaded and how big it can be — applies on every storage provider.
+What do you want to import?
+What every address form collects, in the address book and at checkout. Country layouts, region lists and labels follow each country and are not editable.
+What is this about?
+What the Related-products and Frequently-bought-together shelves show for this product. The Upsell shelf derives from the related rules (pricier matches only) — nothing to configure here.
+When enabled, products with no available stock stay visible on the storefront.
+When enabled, shoppers can place an order without an account. When disabled, they must log in or register to check out.
+When off, only the sub-chips and parent label are interactive.
+When off, opening one FAQ item closes the others in the same group.
+Where content sits within each column. Applied uniformly to every column.
+Where tax rounding is applied: per unit, per line, or on the order total.
+Where the overlay text sits on the image.
+Where to send the events, and whether this webhook is active.
+Where uploaded files (product images, banners, media) are stored, which types are allowed, and how big they can be
+Where you ship, shipping methods and delivery fee
+White
+Whole country
+Wide
+Wide (full bleed)
+Widget Settings
+Widget created successfully!
+Widgets
+Width
+Width is required
+Width must be greater than 0
+Within scope
+Within ±
+Women
+Working…
+Worldwide
+X
+XL
+XS
+Y
+Yes
+You are already logged in
+You are here:
+You can leave this page. The check continues on the server.
+You have 1 change in this draft that hasn’t been published yet.
+You have 1 change still saving.
+You have no addresses saved
+You have no attribute groups to display
+You have no categories to display
+You have no collections to display
+You have no collections yet.
+You have no products to display
+You have not placed any orders yet
+You have not placed any orders yet.
+You paid for
+You will be redirected to PayPal for payment processing.
+Your Cart
+Your cart
+Your cart is empty
+Your cart is empty!
+Your comment
+Your draft is safe on the server — you can come back and publish it any time.
+Your edits on other pages stay in the draft.
+Your logo, favicon, and the image shown when your store is shared on social media.
+Your name
+Your order total is 0 — no payment is needed to place this order.
+Your password has been updated successfully.
+Your phone number
+Your profile has been updated
+ZIP code
+Zone
+Zone Name
+Zone Rates
+Zone created
+Zone is required
+Zone name is required
+Zone removed
+Zone updated
+Zones served
+`Auto` matches the natural image height (jumps between slides).
+across
+active
+available to ship
+below threshold
+bestseller fallback
+breadcrumb
+built-in
+categories
+category bestsellers (fallback)
+co-purchase data
+container will also hide
+current page
+customer addresses
+customers
+e.g. 4
+e.g. 8
+e.g. Care instructions
+e.g. Free shipping
+e.g. Frequently asked
+e.g. Get in touch
+e.g. Hand-picked styles for the season.
+e.g. How long does shipping take?
+e.g. I agree that my details may be used to respond to my enquiry.
+e.g. New collection
+e.g. New, Sale, Limited
+e.g. On orders over $50
+e.g. Orders ship within 24 hours…
+e.g. Question
+e.g. Send message
+e.g. Shipping
+e.g. Small Box
+e.g. Summer Sale
+e.g. Summer Sale 2026
+e.g. Thanks! Your message has been sent.
+e.g. We usually reply within one business day.
+e.g. You may also like
+e.g. care_instructions
+e.g. content
+e.g. main-nav font-semibold
+e.g. question
+e.g., 10.00
+e.g., EU, US-West
+e.g., Express
+e.g., FEDEX_GROUND, usps_priority
+every page
+hidden
+indefinite
+item
+items
+left to ship
+manual pick
+min read
+mobile
+no longer available
+no orders yet — ranked newest first
+not sold to
+of
+open
+products
+publishing is immediate and can’t be undone from this screen. To stage instead, cancel and choose “Schedule a rollout”.
+quantity of products are matched bellow conditions(All)
+retired
+shown
+store bestsellers (fallback)
+subtotal
+to make it appear here.
+unit
+units
+upcoming
+weight
+widget? This will be saved as a pending change you can publish or discard.
+will be removed and the live storefront will stop applying its edits. The underlying changeset and its pending content edits are preserved.
+x
+y
+you@example.com
+z
+— None —
+…

@@ -1,0 +1,180 @@
+/* =========================================================
+   RTL fixes for EverShop Admin
+   Activates only when <html dir="rtl"> (set by
+   AdminLocaleStyle.tsx from the adminLanguage locale).
+   ========================================================= */
+
+/* ---------- Sidebar: move from left edge to right edge ---------- */
+
+html[dir="rtl"] .admin-navigation {
+  float: right !important;
+  left: auto !important;
+  right: 0 !important;
+  border-right: none !important;
+  border-left: 1px solid var(--divider, #e5e7eb) !important;
+  padding-right: 0 !important;
+  padding-left: 4px !important;
+}
+
+/* Main content must reserve space on the right instead of left */
+html[dir="rtl"] .content-wrapper .main-content {
+  margin-left: 0 !important;
+  margin-right: 15rem !important;
+}
+
+html[dir="rtl"] .footer {
+  padding-left: 0 !important;
+  padding-right: 1.875rem !important;
+}
+
+/* ---------- Sidebar menu items ---------- */
+
+html[dir="rtl"] .nav-item > a,
+html[dir="rtl"] .nav-item .root-label {
+  padding-left: 0 !important;
+  padding-right: 0.625rem !important;
+  margin-left: 0 !important;
+  margin-right: 0.625rem !important;
+}
+
+/* Active-item indicator bar: was on the left edge, now on the right */
+html[dir="rtl"] .nav-item.active::before {
+  left: auto !important;
+  right: 0 !important;
+  border-radius: 4px 0 0 4px !important;
+}
+
+/* Icon/text gap inside menu links (.menu-icon had padding-right: 10px) */
+html[dir="rtl"] .nav-item .menu-icon {
+  padding-right: 0 !important;
+  padding-left: 10px !important;
+}
+
+/* Group headers keep icon on the correct side */
+html[dir="rtl"] .admin-nav .root-label {
+  text-align: right;
+}
+
+/* The LAST root nav item ("Setting") is pulled out of flow and pinned
+   fixed bottom-0 left-0 by NavigationItemGroup.scss — mirror it under
+   the right-side sidebar so it doesn't float over the content */
+html[dir="rtl"] .root-nav-item:has(.root-label a[href*="setting"]),
+html[dir="rtl"] .root-nav-item:last-child {
+  position: fixed !important;
+  bottom: 0 !important;
+  top: auto !important;
+  left: auto !important;
+  right: 0 !important;
+  width: 15rem !important;
+  z-index: 1001;
+}
+
+/* Sub-menu indent was padding-left: 1.25rem — flip to the right */
+html[dir="rtl"] .item-group .nav-item > a {
+  padding-left: 0 !important;
+  padding-right: 1.25rem !important;
+}
+
+/* Group label icon gap (.root-label span:first-child had padding-right) */
+html[dir="rtl"] .root-label span:first-child {
+  padding-right: 0 !important;
+  padding-left: 10px !important;
+}
+
+/* ---------- Header ---------- */
+
+/* Search box was pushed right by a 14.5rem left margin (sidebar width);
+   now the sidebar is on the right, so reserve space on the right instead */
+html[dir="rtl"] .header .ml-\[14\.563rem\],
+html[dir="rtl"] [class*="ml-[14"] {
+  margin-left: 0 !important;
+  margin-right: 14.563rem !important;
+}
+
+/* Search input: icon sits on the left in RTL, so pad the left side */
+html[dir="rtl"] header input[type="search"],
+html[dir="rtl"] header input[type="text"] {
+  padding-left: 36px !important;
+  padding-right: 12px !important;
+  text-align: right !important;
+}
+
+/* ---------- Toggle switches ---------- */
+
+/* The thumb slides with a physical translate-x; in RTL the "on" position
+   must be on the left, so mirror the travel distance */
+html[dir="rtl"] [data-slot="switch"][data-checked] [data-slot="switch-thumb"],
+html[dir="rtl"] [data-slot="switch"][data-state="checked"] [data-slot="switch-thumb"] {
+  translate: calc(2px - 100%) 0 !important;
+  transform: translateX(calc(2px - 100%)) !important;
+}
+
+/* ---------- Floating widgets ---------- */
+
+/* "Give Feedback" button: fixed bottom-6 right-6 → bottom-left in RTL */
+html[dir="rtl"] div.fixed.bottom-6.right-6 {
+  right: auto !important;
+  left: 1.5rem !important;
+}
+
+/* ---------- Generic RTL polish ---------- */
+
+/* Flip directional chevrons used for "next/forward" navigation */
+html[dir="rtl"] svg.lucide-chevron-right,
+html[dir="rtl"] [data-lucide="chevron-right"] {
+  transform: rotate(180deg);
+}
+
+/* Tables: first column on the right, header cells right-aligned */
+html[dir="rtl"] table {
+  direction: rtl;
+}
+
+/* Breadcrumbs and pagination arrows that rely on physical order */
+html[dir="rtl"] .breadcrumb,
+html[dir="rtl"] nav[aria-label*="pagination" i] {
+  direction: rtl;
+}
+
+
+/* 1. تفعيل التمرير داخل السايد بار اليمين حتى يظهر قسم "نظام إدارة المحتوى" كاملاً */
+html[dir="rtl"] .admin-navigation {
+  position: fixed !important;
+  top: 56px !important;
+  bottom: 0 !important;
+  right: 0 !important;
+  left: auto !important;
+  height: calc(100vh - 56px) !important;
+  overflow-y: auto !important;
+  padding-bottom: 4.5rem !important;
+}
+
+/* 2. إزاحة زر Debug: OFF الرمادي من أسفل اليمين إلى أسفل اليسار بجانب "إرسال ملاحظات" */
+html[dir="rtl"] body > div:last-of-type,
+html[dir="rtl"] [style*="right: 10px"],
+html[dir="rtl"] [style*="right:10px"],
+html[dir="rtl"] [style*="right: 12px"],
+html[dir="rtl"] [style*="right: 16px"],
+html[dir="rtl"] [style*="right: 20px"],
+html[dir="rtl"] .fixed.bottom-2.right-2,
+html[dir="rtl"] .fixed.bottom-3.right-3,
+html[dir="rtl"] .fixed.bottom-4.right-4 {
+  right: auto !important;
+  left: 10.5rem !important;
+}
+
+/* 3. تثبيت زر الإعدادات في أسفل اليمين فوق السايد بار بوضوح تام */
+html[dir="rtl"] .admin-navigation .root-nav-item:last-child {
+  position: fixed !important;
+  bottom: 0 !important;
+  top: auto !important;
+  left: auto !important;
+  right: 0 !important;
+  width: 15rem !important;
+  background-color: #ffffff !important;
+  border-top: 1px solid #e5e7eb !important;
+  border-left: 1px solid #e5e7eb !important;
+  padding: 0.75rem 0.625rem !important;
+  z-index: 99999 !important;
+  display: block !important;
+}

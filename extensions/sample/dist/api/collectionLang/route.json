@@ -1,0 +1,5 @@
+{
+  "methods": ["GET"],
+  "path": "/collections/:id/i18n",
+  "access": "private"
+}

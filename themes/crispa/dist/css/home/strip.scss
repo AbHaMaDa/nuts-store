@@ -1,0 +1,42 @@
+/* ================= تنسيق Trust Strip (شريط المميزات) =================
+   الـ DOM الحقيقي (EverShop TrustStrip.js):
+   .evershop-trust-strip  (grid: grid-cols-1 sm:grid-cols-2 + --evershop-trust-cols)
+     └─ .evershop-trust-strip__item(--with-divider)
+          ├─ .evershop-trust-strip__icon
+          ├─ .evershop-trust-strip__heading
+          └─ .evershop-trust-strip__body
+   ملحوظة: ممنوع استهداف بموقع العنصر (nth-child) — أي تغيير في ترتيب
+   الويدجتس بيكسر كل السكاشن التانية. الكلاسات الحقيقية بس.
+*/
+
+/* إصلاح الفاصل في RTL: الويدجت بيستخدم border-r فيزيائي —
+   في العربي لازم يبقى على جهة الـ inline-end */
+@media (min-width: 640px) {
+  .evershop-trust-strip__item--with-divider {
+    border-right: none !important;
+    padding-right: 0 !important;
+    border-inline-end: 1px solid var(--crispa-border) !important;
+    padding-inline-end: 16px !important;
+  }
+}
+
+/* تابلت (600px – 1023px): عمودين بفراغات مريحة — الويدجت أصلًا
+   sm:grid-cols-2 من 640، هنا نثبّتها من 600 ونوسّع الفراغ */
+@media (min-width: 600px) and (max-width: 1023px) {
+  .evershop-trust-strip {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 20px 16px !important;
+  }
+
+  .evershop-trust-strip__item {
+    padding: 8px 4px !important;
+  }
+
+  .evershop-trust-strip__heading {
+    font-size: 0.85rem !important;
+  }
+
+  .evershop-trust-strip__body {
+    font-size: 0.75rem !important;
+  }
+}

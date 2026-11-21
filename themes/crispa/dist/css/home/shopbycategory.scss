@@ -1,0 +1,26 @@
+/* ================= قسم تسوق حسب الفئة (Category Mosaic) ================= */
+.evershop-category-mosaic {
+  max-width: 1320px !important;
+  margin-inline: auto !important;
+  padding-inline: 24px !important;
+
+  .evershop-category-mosaic__heading {
+    text-align: start !important;
+    margin-bottom: 20px !important;
+    color: var(--crispa-text) !important;
+  }
+}
+
+/* في الشاشات الكبيرة (1024px فأكبر): 4 أعمدة جنب بعض بحجم متناسق بدل عمودين كبار */
+@media (min-width: 1024px) {
+  .evershop-category-mosaic__tiles {
+    display: grid !important;
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+    gap: 20px !important;
+  }
+
+  .evershop-category-mosaic__tile {
+    border-radius: 16px !important;
+    overflow: hidden !important;
+  }
+}

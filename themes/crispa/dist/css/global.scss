@@ -1,0 +1,851 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --crispa-primary: #c85a28;       /* برتقالي لوجو Crispa */
+  --crispa-primary-hover: #a6461b;
+  --crispa-secondary: #5a6b3c;     /* أخضر زيتوني لوجو Crispa */
+  --crispa-bg: #faf8f5;            /* خلفية كريمي ناعمة */
+  --crispa-surface: #ffffff;       /* أبيض نقي للكروت والهيدر */
+  --crispa-text: #2c241e;          /* بني داكن للنصوص */
+  --crispa-muted: #7a7067;
+  --crispa-border: #ece5da;
+}
+
+/* ================= الاتجاه العام والخطوط حسب اللغة ================= */
+html[dir="rtl"] {
+  direction: rtl;
+  text-align: start;
+
+  body {
+    font-family: 'Cairo', sans-serif !important;
+  }
+
+  body,
+  main,
+  section,
+  article,
+  header,
+  footer {
+    direction: rtl;
+    text-align: start;
+  }
+
+  .text-left {
+    text-align: right !important;
+  }
+}
+
+html[dir="ltr"] {
+  direction: ltr;
+  text-align: start;
+
+  body {
+    font-family: 'Inter', 'Cairo', sans-serif !important;
+  }
+
+  body,
+  main,
+  section,
+  article,
+  header,
+  footer {
+    direction: ltr;
+    text-align: start;
+  }
+}
+
+body {
+  background-color: var(--crispa-bg) !important;
+  color: var(--crispa-text) !important;
+  margin: 0;
+}
+
+/* ================= 1. الناف بار الأساسية ================= */
+header.header {
+  background-color: var(--crispa-surface) !important;
+  border: none !important;
+  box-shadow: none !important;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header__middle {
+  max-width: 1320px;
+  min-height: 120px !important;
+  margin-inline: auto;
+  padding: 12px 24px 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  position: relative;
+}
+
+.header__middle__left:empty {
+  display: none !important;
+}
+
+.header__middle__center {
+  position: absolute !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+
+  img {
+    height: 110px !important;
+    max-height: none !important;
+    width: auto !important;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+  }
+}
+
+.header__middle__right {
+  width: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  gap: 16px !important;
+
+  .search__box {
+    display: none !important;
+  }
+
+  .customer-icon {
+    order: 1;
+  }
+
+  .mini_cart_wrapper {
+    order: 2;
+  }
+}
+
+.header__middle__right .customer-icon a,
+.header__middle__right .mini_cart_wrapper button,
+.header__middle__right .mini_cart_wrapper a {
+  padding: 8px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 10px !important;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+
+  &:hover {
+    background-color: rgba(90, 107, 60, 0.08) !important;
+  }
+}
+
+.header__middle__right .customer-icon svg,
+.header__middle__right .mini_cart_wrapper svg {
+  width: 26px !important;
+  height: 26px !important;
+  stroke-width: 1.9 !important;
+  color: var(--crispa-secondary);
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+header.header a:hover svg,
+header.header button:hover svg {
+  color: var(--crispa-primary);
+  transform: translateY(-1px);
+}
+
+.crispa-inline-search {
+  display: flex !important;
+  align-items: center !important;
+  max-width: 100% !important;
+  background-color: var(--crispa-bg) !important;
+  border: 1.5px solid var(--crispa-border) !important;
+  border-radius: 999px !important;
+  padding: 4px 14px !important;
+  width: 230px !important;
+  height: 42px !important;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, width 0.25s ease;
+
+  &:focus-within {
+    border-color: var(--crispa-primary) !important;
+    background-color: var(--crispa-surface) !important;
+    box-shadow: 0 0 0 3px rgba(200, 90, 40, 0.1);
+    width: 260px !important;
+  }
+
+  button {
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    margin-inline-end: 8px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    cursor: pointer;
+    color: var(--crispa-secondary) !important;
+  }
+
+  input {
+    width: 100% !important;
+    min-width: 0 !important;
+    border: none !important;
+    outline: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    font-size: 0.9rem !important;
+    font-weight: 600 !important;
+    color: var(--crispa-text) !important;
+    padding: 0 !important;
+
+    &::placeholder {
+      color: var(--crispa-muted);
+      font-weight: 500;
+    }
+  }
+}
+
+/* ================= 2. شريط روابط الأقسام (basic_menu) ================= */
+/* الديسكتوب من 1024px — أقل من كده يظهر الهامبرغر */
+@media (min-width: 1024px) {
+  .evershop-basic-menu__desktop {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 4px 24px 12px !important;
+    background-color: var(--crispa-surface) !important;
+    border: none !important;
+    border-bottom: 1px solid var(--crispa-border) !important;
+    box-shadow: 0 4px 12px rgba(44, 36, 30, 0.03) !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    position: relative;
+    z-index: 95 !important;
+  }
+}
+
+.header__middle .evershop-basic-menu__desktop {
+  display: none !important;
+}
+
+/* موبايل + تابلت: الهامبرغر يظهر حتى 1023px
+   (EverShop بيخفيه عند 768 —we override عشان iPad portrait ياخد قائمة موبايل) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .evershop-basic-menu__desktop {
+    display: none !important;
+  }
+
+  .evershop-basic-menu__mobile {
+    display: block !important;
+  }
+}
+
+@media (max-width: 1023px) {
+  .evershop-basic-menu__mobile {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 8px 16px !important;
+    background-color: var(--crispa-surface) !important;
+    border-bottom: 1px solid var(--crispa-border) !important;
+    box-shadow: 0 4px 12px rgba(44, 36, 30, 0.03) !important;
+  }
+
+  .header__middle .evershop-basic-menu__mobile {
+    width: auto !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  .header__bottom .evershop-basic-menu__mobile {
+    display: none !important;
+  }
+
+  .evershop-basic-menu__toggle {
+    color: var(--crispa-secondary) !important;
+    padding: 10px !important;
+    border-radius: 10px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+
+    &:hover {
+      background-color: rgba(90, 107, 60, 0.08) !important;
+      color: var(--crispa-primary) !important;
+    }
+  }
+
+  .evershop-basic-menu__mobile-panel {
+    background-color: var(--crispa-surface) !important;
+    border: 1px solid var(--crispa-border) !important;
+    border-radius: 14px !important;
+    box-shadow: 0 14px 34px rgba(44, 36, 30, 0.12) !important;
+    padding: 8px !important;
+    width: 260px !important;
+    max-width: 85vw !important;
+  }
+
+  html[dir="rtl"] .evershop-basic-menu__mobile-panel {
+    left: auto !important;
+    right: 0 !important;
+  }
+
+  .evershop-basic-menu__mobile-panel ul {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 4px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style: none !important;
+  }
+
+  .evershop-basic-menu__mobile-panel ul > li > a {
+    display: block !important;
+    width: 100% !important;
+    padding: 11px 16px !important;
+    border-radius: 9px !important;
+    color: var(--crispa-text) !important;
+    font-weight: 700 !important;
+    font-size: 0.9rem !important;
+    text-decoration: none !important;
+    text-align: start !important;
+    transition: all 0.2s ease;
+
+    &:hover {
+      background-color: var(--crispa-bg) !important;
+      color: var(--crispa-primary) !important;
+    }
+  }
+
+  .evershop-basic-menu__mobile-subs {
+    border-left: none !important;
+    border-inline-start: 1px solid var(--crispa-border) !important;
+    margin-left: 0 !important;
+    margin-inline-start: 12px !important;
+    padding-left: 0 !important;
+    padding-inline-start: 10px !important;
+  }
+
+  .evershop-basic-menu__mobile-panel .evershop-basic-menu__mobile-group .evershop-basic-menu__mobile-subs > li > a {
+    padding: 7px 12px !important;
+    padding-inline-start: 22px !important;
+    border-radius: 8px !important;
+    font-size: 0.82rem !important;
+    font-weight: 500 !important;
+    color: var(--crispa-muted) !important;
+
+    &:hover {
+      color: var(--crispa-primary) !important;
+      background-color: rgba(200, 90, 40, 0.07) !important;
+    }
+  }
+}
+
+.evershop-basic-menu__desktop {
+  [data-slot="navigation-menu-list"] {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 28px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    list-style: none !important;
+  }
+
+  [data-slot="navigation-menu-item"] {
+    position: relative !important;
+    margin: 0 !important;
+  }
+
+  [data-slot="navigation-menu-link"],
+  [data-slot="navigation-menu-trigger"] {
+    position: relative !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 6px !important;
+    color: var(--crispa-text) !important;
+    font-weight: 700 !important;
+    font-size: 0.96rem !important;
+    padding: 8px 4px !important;
+    cursor: pointer !important;
+    text-decoration: none !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    transition: color 0.2s ease !important;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 2px;
+      left: 50%;
+      width: 0;
+      height: 2px;
+      background-color: var(--crispa-primary);
+      border-radius: 2px;
+      transform: translateX(-50%);
+      transition: width 0.25s ease;
+    }
+
+    &:hover {
+      color: var(--crispa-primary) !important;
+
+      &::after {
+        width: 100%;
+      }
+    }
+  }
+
+  [data-slot="navigation-menu-item"]:has([data-slot="navigation-menu-trigger"]) > [data-slot="navigation-menu-trigger"] {
+    color: var(--crispa-secondary) !important;
+
+    &:hover {
+      color: var(--crispa-primary) !important;
+    }
+  }
+}
+
+.evershop-basic-menu__mobile-inline > ul {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 2px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
+}
+
+.evershop-basic-menu__mobile-inline > ul > li > a {
+  display: block !important;
+  padding: 10px 14px !important;
+  border-radius: 9px !important;
+  color: var(--crispa-text) !important;
+  font-weight: 700 !important;
+  font-size: 0.92rem !important;
+  text-decoration: none !important;
+  transition: all 0.2s ease !important;
+
+  &:hover {
+    background-color: var(--crispa-bg) !important;
+    color: var(--crispa-primary) !important;
+  }
+}
+
+.evershop-basic-menu__mobile-subs {
+  border-left: none !important;
+  border-inline-start: 1px solid var(--crispa-border) !important;
+  margin-left: 0 !important;
+  margin-inline-start: 12px !important;
+  padding-left: 0 !important;
+  padding-inline-start: 10px !important;
+}
+
+.evershop-basic-menu__mobile-inline .evershop-basic-menu__mobile-group .evershop-basic-menu__mobile-subs > li > a {
+  padding: 7px 12px !important;
+  padding-inline-start: 22px !important;
+  border-radius: 8px !important;
+  font-size: 0.82rem !important;
+  font-weight: 500 !important;
+  color: var(--crispa-muted) !important;
+
+  &:hover {
+    color: var(--crispa-primary) !important;
+    background-color: rgba(200, 90, 40, 0.07) !important;
+  }
+}
+
+[data-slot="navigation-menu-content"] {
+  padding: 0 !important;
+}
+
+.bg-popover:has([data-slot="navigation-menu-content"]) {
+  background-color: var(--crispa-surface) !important;
+  border: 1px solid var(--crispa-border) !important;
+  border-radius: 16px !important;
+  box-shadow:
+    0 18px 40px rgba(44, 36, 30, 0.14),
+    0 4px 12px rgba(44, 36, 30, 0.06) !important;
+}
+
+[data-side="bottom"][data-open] {
+  z-index: 300 !important;
+}
+
+.evershop-basic-menu__desktop [data-slot="navigation-menu-trigger"][data-popup-open] > svg,
+.evershop-basic-menu__desktop [data-slot="navigation-menu-trigger"][data-open] > svg {
+  transform: rotate(180deg);
+  transition: transform 0.25s ease;
+}
+
+.evershop-basic-menu__subs {
+  min-width: 260px !important;
+  max-width: min(320px, calc(100vw - 32px)) !important;
+  padding: 10px !important;
+  gap: 4px;
+  margin: 0 !important;
+  list-style: none !important;
+}
+
+.evershop-basic-menu__subs > li > a,
+.evershop-basic-menu__subs [data-slot="navigation-menu-link"] {
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+  width: 100% !important;
+  padding: 9px 16px !important;
+  padding-inline-start: 20px !important;
+  border-radius: 10px !important;
+  color: var(--crispa-muted) !important;
+  font-family: inherit !important;
+  font-weight: 500 !important;
+  font-size: 0.85rem !important;
+  line-height: 1.5 !important;
+  text-decoration: none !important;
+  background: transparent !important;
+  border-inline-start: 3px solid transparent !important;
+  transition: all 0.2s ease !important;
+
+  &::before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: var(--crispa-border);
+    flex-shrink: 0;
+    transition: background-color 0.2s ease;
+  }
+
+  &:hover {
+    background-color: rgba(200, 90, 40, 0.07) !important;
+    color: var(--crispa-primary) !important;
+    padding-inline-start: 22px !important;
+    border-inline-start-color: var(--crispa-primary) !important;
+
+    &::before {
+      background-color: var(--crispa-primary) !important;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .header__middle {
+    min-height: 90px !important;
+    padding: 8px 16px !important;
+  }
+
+  .header__middle__right {
+    width: auto !important;
+    flex-shrink: 0 !important;
+    margin-inline-start: auto !important;
+    gap: 10px !important;
+  }
+
+  .header__middle__center img {
+    height: 76px !important;
+  }
+
+  .crispa-inline-search {
+    width: auto !important;
+    flex: 1 1 auto !important;
+    min-width: 0 !important;
+    height: 36px !important;
+    padding: 2px 10px !important;
+    margin-inline-start: 0 !important;
+
+    &:focus-within {
+      width: auto !important;
+    }
+  }
+
+  .header__middle__right .customer-icon svg,
+  .header__middle__right .mini_cart_wrapper svg {
+    width: 22px !important;
+    height: 22px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .header__middle {
+    min-height: 84px !important;
+    padding: 8px 12px !important;
+  }
+
+  .header__middle__center img {
+    height: 62px !important;
+  }
+
+  .header__middle__right {
+    gap: 8px !important;
+  }
+
+  .crispa-inline-search {
+    width: auto !important;
+    flex: 1 1 auto !important;
+    min-width: 0 !important;
+    height: 36px !important;
+    padding: 2px 8px !important;
+    margin-inline-start: 0 !important;
+
+    &:focus-within {
+      width: auto !important;
+    }
+
+    input {
+      font-size: 0.8rem !important;
+    }
+  }
+
+  .header__middle__right .customer-icon a,
+  .header__middle__right .mini_cart_wrapper button,
+  .header__middle__right .mini_cart_wrapper a {
+    padding: 6px !important;
+  }
+
+  .header__middle__right .customer-icon svg,
+  .header__middle__right .mini_cart_wrapper svg {
+    width: 22px !important;
+    height: 22px !important;
+  }
+}
+
+/* ================= 3. تنسيق الفوتر الأساسي ================= */
+footer.footer {
+  background-color: var(--crispa-bg) !important;
+  color: var(--crispa-text) !important;
+  border-top: none !important;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+
+  a {
+    color: var(--crispa-text) !important;
+    text-decoration: none !important;
+  }
+}
+
+/* ================= 4. بحث الموبايل: أيقونة + بار منبثق ================= */
+.header__middle__right .crispa-search-wrap {
+  order: 3 !important;
+  margin-inline-start: auto !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.crispa-search-toggle,
+.crispa-search-close {
+  display: none !important;
+}
+
+@media (max-width: 768px) {
+  .crispa-search-toggle {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    padding: 8px !important;
+    border: none;
+    border-radius: 10px;
+    background: transparent;
+    color: var(--crispa-secondary);
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+
+    &:hover {
+      background-color: rgba(90, 107, 60, 0.08);
+      color: var(--crispa-primary);
+    }
+  }
+
+  .crispa-search-wrap.is-open::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-color: rgba(44, 36, 30, 0.4);
+    z-index: 390;
+  }
+
+  .crispa-inline-search {
+    display: none !important;
+    position: fixed !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    z-index: 400 !important;
+    width: min(480px, calc(100vw - 40px)) !important;
+    height: 58px !important;
+    margin: 0 !important;
+    padding: 6px 12px !important;
+    border: 1px solid var(--crispa-border) !important;
+    border-radius: 18px !important;
+    background-color: var(--crispa-surface) !important;
+    box-shadow: 0 24px 60px rgba(44, 36, 30, 0.28) !important;
+    gap: 8px;
+
+    input {
+      flex: 1 1 auto !important;
+      font-size: 1rem !important;
+    }
+  }
+
+  .crispa-search-wrap.is-open .crispa-inline-search {
+    display: flex !important;
+  }
+
+  .crispa-search-wrap.is-open .crispa-inline-search:focus-within {
+    width: min(480px, calc(100vw - 40px)) !important;
+    border-color: var(--crispa-primary) !important;
+    box-shadow:
+      0 24px 60px rgba(44, 36, 30, 0.28),
+      0 0 0 3px rgba(200, 90, 40, 0.12) !important;
+  }
+
+  .crispa-search-close {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    padding: 6px;
+    border: none;
+    border-radius: 8px;
+    background: transparent;
+    color: var(--crispa-muted);
+    cursor: pointer;
+
+    &:hover {
+      background-color: var(--crispa-bg);
+      color: var(--crispa-text);
+    }
+  }
+}
+
+[data-slot="sheet-overlay"],
+[data-slot="sheet-content"] {
+  z-index: 200 !important;
+}
+
+/* زر الإغلاق داخل الـ drawer: في RTL كان فوق العنوان — انقله للطرف الآخر */
+[dir="rtl"] [data-slot="sheet-content"] [data-slot="sheet-close"] {
+  right: auto !important;
+  left: 1rem !important;
+}
+
+/* ================= 5. استدعاء تنسيقات الصفحة الرئيسية ================= */
+@import './home/home.scss';
+@import './products/products.scss';
+@import './products/product.scss';
+
+
+/* ================= 6. تنسيق ويدجت Footer Menu — بانر غامق متوازن في كل الشاشات ================= */
+.evershop-footer-menu {
+  /* الخروج من حاوية .page-width لعرض الشاشة كله مع توسيط المحتوى داخلياً */
+  width: auto !important;
+  max-width: none !important;
+  margin-inline: calc(50% - 50vw) !important;
+  padding-block: 44px 36px !important;
+  padding-inline: max(24px, calc(50vw - 540px)) !important;
+
+  background: var(--crispa-text) !important;
+  border-top: 3px solid var(--crispa-primary) !important;
+  color: #f3ece1 !important;
+  box-sizing: border-box !important;
+}
+
+/* الديسكتوب والتابلت العريض (768px فأكبر): الـ 3 أعمدة متوزعين بتوازن داخل 1080px */
+@media (min-width: 768px) {
+  .evershop-footer-menu.evershop-footer-menu-grid {
+    grid-template-columns: repeat(var(--evershop-footer-cols, 3), minmax(160px, 1fr)) !important;
+    justify-content: space-between !important;
+    column-gap: 48px !important;
+  }
+}
+
+.evershop-footer-menu__column {
+  min-width: 0 !important;
+}
+
+/* عنوان العمود */
+.evershop-footer-menu__title {
+  color: #ffffff !important;
+  opacity: 1 !important;
+  font-size: 0.95rem !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.04em !important;
+  margin-bottom: 14px !important;
+  padding-bottom: 8px !important;
+  border-bottom: 2px solid var(--crispa-primary) !important;
+  display: inline-block !important;
+}
+
+/* قائمة الروابط */
+.evershop-footer-menu__links {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 10px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
+}
+
+.evershop-footer-menu__link {
+  color: rgba(243, 236, 225, 0.85) !important;
+  opacity: 1 !important;
+  font-size: 0.92rem !important;
+  font-weight: 500 !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  transition: color 0.2s ease, padding-inline-start 0.2s ease !important;
+
+  &:hover {
+    color: #ffffff !important;
+    opacity: 1 !important;
+    text-decoration: underline !important;
+    padding-inline-start: 6px;
+  }
+}
+
+/* التابلت (600px – 1023px): 3 أعمدة جنب بعض بدون أي فراغ تحت */
+@media (min-width: 600px) and (max-width: 1023px) {
+  .evershop-footer-menu.evershop-footer-menu-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    padding-block: 36px 28px !important;
+    padding-inline: 24px !important;
+    gap: 24px !important;
+  }
+}
+/* الموبايل (أقل من 600px): نفس الهيكل مع مسافة أفقية أوسع بين العمودين */
+@media (max-width: 599px) {
+  .evershop-footer-menu.evershop-footer-menu-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    padding-block: 28px 24px !important;
+    padding-inline: 24px !important;
+    column-gap: 48px !important;
+    row-gap: 28px !important;
+  }
+
+  .evershop-footer-menu__title {
+    font-size: 0.88rem !important;
+    margin-bottom: 10px !important;
+  }
+
+  .evershop-footer-menu__links {
+    gap: 8px !important;
+  }
+
+  .evershop-footer-menu__link {
+    font-size: 0.86rem !important;
+  }
+}
+/* دمج شريط حقوق الملكية أسفل الفوتر بنفس اللون الغامق */
+footer.footer {
+  background: var(--crispa-text) !important;
+  color: rgba(243, 236, 225, 0.72) !important;
+  padding-bottom: 18px !important;
+
+  .copyright,
+  [class*="copyright"] {
+    border-top: 1px solid rgba(243, 236, 225, 0.14) !important;
+    padding-top: 16px !important;
+    margin-top: 0 !important;
+    text-align: center !important;
+    font-size: 0.82rem !important;
+    color: rgba(243, 236, 225, 0.72) !important;
+  }
+}

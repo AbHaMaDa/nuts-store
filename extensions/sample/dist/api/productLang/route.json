@@ -1,0 +1,5 @@
+{
+  "methods": ["GET"],
+  "path": "/products/:id/i18n",
+  "access": "private"
+}
