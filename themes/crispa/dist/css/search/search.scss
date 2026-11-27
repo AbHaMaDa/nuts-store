@@ -1,0 +1,95 @@
+/* ================= صفحة البحث (/search?keyword=...) =================
+   الـ DOM الحقيقي:
+   main.page-width
+     ├─ Area#searchPageTop        (.search__page__top)
+     ├─ .grid > Area#searchPageContent
+     │    ├─ form[action="/search"] > .relative.mx-auto.max-w-2xl
+     │    │    ├─ svg.left-4       (أيقونة البحث)
+     │    │    └─ input[name="keyword"]
+     │    ├─ .mb-8 > h1.search-name (+ span.text-muted-foreground للكلمة)
+     │    └─ ProductList → .product__grid (منسّق أصلًا في products.scss)
+     └─ Area#searchPageBottom     (.search__page__bottom)
+*/
+
+/* ---------- 1. عمود الصفحة — نفس معالجة باقي الصفحات ---------- */
+.page-width:has(.search-name) {
+  padding-inline: 20px !important;
+}
+
+@media (min-width: 768px) {
+  .page-width:has(.search-name) {
+    padding-inline: 32px !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .page-width:has(.search-name) {
+    max-width: 1320px !important;
+    margin-inline: auto !important;
+  }
+}
+
+/* ---------- 1-b. مسافة سفلية للجريد فقط — مش على الصفحة كلها */
+.page-width:has(.search-name) .product__grid {
+  padding-block-end: 48px !important;
+}
+
+@media (min-width: 768px) {
+  .page-width:has(.search-name) .product__grid {
+    padding-block-end: 64px !important;
+  }
+}
+
+/* ---------- 2. حقل البحث — نفس لغة الـ pill بتاع الهيدر ---------- */
+.page-width:has(.search-name) {
+  form[action="/search"] input[name="keyword"] {
+    height: 52px !important;
+    border-radius: 999px !important;
+    border: 1.5px solid var(--crispa-border) !important;
+    background-color: var(--crispa-surface) !important;
+    font-weight: 600 !important;
+    font-size: 0.95rem !important;
+    color: var(--crispa-text) !important;
+    padding-inline-start: 3rem !important;
+    padding-inline-end: 1.25rem !important;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease !important;
+
+    &::placeholder {
+      color: var(--crispa-muted);
+      font-weight: 500;
+    }
+
+    &:focus {
+      border-color: var(--crispa-primary) !important;
+      box-shadow: 0 0 0 3px rgba(200, 90, 40, 0.1) !important;
+      outline: none !important;
+    }
+  }
+
+  form[action="/search"] svg {
+    color: var(--crispa-secondary) !important;
+  }
+}
+
+/* ---------- 3. اتجاه الأيقونة في RTL ----------
+   الأيقونة مثبتة فيزيائيًا على left-4 — في العربي المفروض تبقى
+   في بداية السطر (اليمين). الـ padding منطقي (inline) فبيتحرك لوحده. */
+html[dir="rtl"] .page-width:has(.search-name) form[action="/search"] .left-4 {
+  left: auto !important;
+  right: 1rem !important;
+}
+
+/* ---------- 4. العنوان والكلمة المفتاحية ---------- */
+.page-width:has(.search-name) {
+  .search-name {
+    color: var(--crispa-text) !important;
+  }
+
+  .text-muted-foreground {
+    color: var(--crispa-muted) !important;
+  }
+
+  .text-foreground {
+    color: var(--crispa-text) !important;
+  }
+}

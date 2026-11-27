@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ES2022",
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true,
+    "allowJs": true,
+    "paths": {
+      "@components/*": [
+        "./node_modules/@evershop/evershop/src/components/*",
+        "./node_modules/@evershop/evershop/dist/components/*"
+      ],
+      "@evershop/evershop/*": [
+        "./node_modules/@evershop/evershop/src/*",
+        "./node_modules/@evershop/evershop/dist/*"
+      ]
+    }
+  },
+  "include": [
+    "node_modules/@evershop/evershop/src/**/*.ts",
+    "node_modules/@evershop/evershop/src/**/*.tsx"
+  ]
+}

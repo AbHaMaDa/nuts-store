@@ -1,0 +1,5 @@
+{
+  "methods": ["GET"],
+  "path": "/cms-pages/:id/i18n",
+  "access": "private"
+}

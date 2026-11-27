@@ -114,6 +114,25 @@ html[dir="ltr"] .evershop-slideshow__overlay {
   }
 }
 
+/* ================= react-slick hardcodes dir="ltr" on .slick-slider =================
+   فبيورث direction:ltr جوه السلايدر في اللغتين — text-align:start بتتحسب left دايماً.
+   في العربي نرجّع النص لليمين على الديسكتوب (التابلت والموبايل يفضلوا متوسطيين). */
+@media (min-width: 1024px) {
+  /* main[dir] بيتظبط على لغة الصفحة (ContentDir) — html[dir] بيفضل rtl دايماً
+     عشان الهيدر/الفوتر مينقلبوش، فلازم الاسكوب يبقى main مش html */
+  main[dir="rtl"] .evershop-slideshow__content,
+  main[dir="rtl"] .evershop-slideshow__content > *,
+  main[dir="rtl"] .evershop-slideshow__eyebrow,
+  main[dir="rtl"] .evershop-slideshow__heading,
+  main[dir="rtl"] .evershop-slideshow__subtext {
+    text-align: right !important;
+  }
+
+  main[dir="rtl"] .evershop-slideshow__ctas {
+    justify-content: flex-end !important;
+  }
+}
+
 /* ================= 2. التابلت ومقاس تابلت المحرر (600px – 1023px): توسيط كامل في النص ================= */
 @media (min-width: 600px) and (max-width: 1023px) {
   .evershop-slideshow__overlay {

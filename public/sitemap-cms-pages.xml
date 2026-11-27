@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:3000/about</loc>
+    <lastmod>2026-11-27T22:09:35.596Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="http://localhost:3000/about"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:3000/about"/>
+  </url>
+  <url>
+    <loc>http://localhost:3000/en/about</loc>
+    <lastmod>2026-11-27T22:09:35.596Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="http://localhost:3000/about"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:3000/about"/>
+  </url>
+  <url>
+    <loc>http://localhost:3000/contact-us</loc>
+    <lastmod>2026-11-27T22:13:35.712Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="http://localhost:3000/contact-us"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/contact-us"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:3000/contact-us"/>
+  </url>
+  <url>
+    <loc>http://localhost:3000/en/contact-us</loc>
+    <lastmod>2026-11-27T22:13:35.712Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="http://localhost:3000/contact-us"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/contact-us"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:3000/contact-us"/>
+  </url>
+</urlset>

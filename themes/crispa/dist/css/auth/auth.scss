@@ -1,0 +1,133 @@
+/* ================= صفحات الدخول والتسجيل (/login + /register) =================
+   الـ DOM الحقيقي:
+   main.page-width
+     └─ .login__page / .register__form  (flex flex-col items-center py-10)
+          └─ .w-full.max-w-md
+               ├─ [data-slot="card"].rounded-lg.border   (كارت الفورم)
+               │    └─ [data-slot="card-content"].px-8
+               │         └─ .login__form / .register__form__inner
+               │              ├─ h1.__title + p.__subtitle
+               │              ├─ fields (InputField / PasswordField)
+               │              └─ .form-submit-button > [data-slot="button"].w-full
+               └─ .login__page__options / div.mt-6   (لينكات forgot/create account)
+*/
+
+/* ---------- 1. عمود الصفحة — نفس معالجة السلة/الـ checkout/الأكونت ---------- */
+.page-width:has(.login__page, .register__form) {
+  padding-inline: 20px !important;
+}
+
+@media (min-width: 768px) {
+  .page-width:has(.login__page, .register__form) {
+    padding-inline: 32px !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .page-width:has(.login__page, .register__form) {
+    max-width: 1320px !important;
+    margin-inline: auto !important;
+  }
+}
+
+/* ---------- 2. الكارت ---------- */
+.login__page [data-slot="card"],
+.register__form [data-slot="card"] {
+  background-color: var(--crispa-surface) !important;
+  border-color: var(--crispa-border) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 2px 10px rgba(44, 36, 30, 0.04) !important;
+}
+
+/* ---------- 3. الألوان ---------- */
+.login__page,
+.register__form {
+  .text-muted-foreground {
+    color: var(--crispa-muted) !important;
+  }
+
+  .text-foreground {
+    color: var(--crispa-text) !important;
+  }
+
+  .border-border {
+    border-color: var(--crispa-border) !important;
+  }
+
+  .bg-primary {
+    background-color: var(--crispa-primary) !important;
+  }
+
+  .hover\:bg-primary\/80:hover {
+    background-color: var(--crispa-primary-hover) !important;
+  }
+
+  .text-primary {
+    color: var(--crispa-primary) !important;
+  }
+
+  .border-primary {
+    border-color: var(--crispa-primary) !important;
+  }
+
+  /* لينكات CTA تحت الكارت (Forgot password / Create account / Sign in) */
+  .login__page__options a,
+  > div > a.font-medium {
+    color: var(--crispa-primary) !important;
+  }
+}
+
+/* ---------- 4. العناوين ---------- */
+.login__form__title,
+.register__form__title,
+.login__form__subtitle,
+.register__form__subtitle {
+  color: var(--crispa-text);
+}
+
+/* ---------- 5. الحقول ---------- */
+.login__page,
+.register__form {
+  input:not([type="hidden"]):not([type="checkbox"]):not([type="radio"]),
+  select,
+  textarea {
+    border-radius: 10px !important;
+    border-color: var(--crispa-border) !important;
+  }
+
+  input:not([type="hidden"]):focus,
+  select:focus,
+  textarea:focus {
+    border-color: var(--crispa-primary) !important;
+    box-shadow: 0 0 0 3px rgba(200, 90, 40, 0.1) !important;
+  }
+}
+
+/* ---------- 6. الأزرار ---------- */
+.login__page [data-slot="button"],
+.register__form [data-slot="button"] {
+  border-radius: 12px !important;
+  font-weight: 700 !important;
+}
+
+/* ---------- 7. إصلاحات الاتجاه (RTL) ---------- */
+.login__page,
+.register__form {
+  .text-right {
+    text-align: end !important;
+  }
+
+  .text-left {
+    text-align: start !important;
+  }
+
+  .ml-auto {
+    margin-left: 0 !important;
+    margin-inline-start: auto !important;
+  }
+
+  .-right-2 {
+    right: auto !important;
+    inset-inline-end: -0.5rem !important;
+  }
+}

@@ -1,81 +1,219 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:3000/crispy-fruit-chips/tangy-dried-kiwi-slices</loc>
     <lastmod>2026-11-18T00:05:38.265Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="http://localhost:3000/crispy-fruit-chips/tangy-dried-kiwi-slices"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/crispy-fruit-chips/tangy-dried-kiwi-slices"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:3000/crispy-fruit-chips/tangy-dried-kiwi-slices"/>
+  </url>
+  <url>
+    <loc>http://localhost:3000/en/crispy-fruit-chips/tangy-dried-kiwi-slices</loc>
+    <lastmod>2026-11-18T00:05:38.265Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="http://localhost:3000/crispy-fruit-chips/tangy-dried-kiwi-slices"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/crispy-fruit-chips/tangy-dried-kiwi-slices"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:3000/crispy-fruit-chips/tangy-dried-kiwi-slices"/>
   </url>
   <url>
     <loc>http://localhost:3000/crispy-fruit-chips/cinnamon-apple-chips</loc>
     <lastmod>2026-11-18T00:05:38.156Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="http://localhost:3000/crispy-fruit-chips/cinnamon-apple-chips"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/crispy-fruit-chips/cinnamon-apple-chips"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:3000/crispy-fruit-chips/cinnamon-apple-chips"/>
+  </url>
+  <url>
+    <loc>http://localhost:3000/en/crispy-fruit-chips/cinnamon-apple-chips</loc>
+    <lastmod>2026-11-18T00:05:38.156Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="http://localhost:3000/crispy-fruit-chips/cinnamon-apple-chips"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/crispy-fruit-chips/cinnamon-apple-chips"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:3000/crispy-fruit-chips/cinnamon-apple-chips"/>
   </url>
   <url>
     <loc>http://localhost:3000/crispy-fruit-chips/crispy-strawberry-slices</loc>
     <lastmod>2026-11-18T00:05:38.208Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="http://localhost:3000/crispy-fruit-chips/crispy-strawberry-slices"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/crispy-fruit-chips/crispy-strawberry-slices"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:3000/crispy-fruit-chips/crispy-strawberry-slices"/>
+  </url>
+  <url>
+    <loc>http://localhost:3000/en/crispy-fruit-chips/crispy-strawberry-slices</loc>
+    <lastmod>2026-11-18T00:05:38.208Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="http://localhost:3000/crispy-fruit-chips/crispy-strawberry-slices"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/crispy-fruit-chips/crispy-strawberry-slices"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:3000/crispy-fruit-chips/crispy-strawberry-slices"/>
   </url>
   <url>
     <loc>http://localhost:3000/crispy-fruit-chips/crunchy-banana-chips</loc>
     <lastmod>2026-11-18T00:05:38.235Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="http://localhost:3000/crispy-fruit-chips/crunchy-banana-chips"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/crispy-fruit-chips/crunchy-banana-chips"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:3000/crispy-fruit-chips/crunchy-banana-chips"/>
+  </url>
+  <url>
+    <loc>http://localhost:3000/en/crispy-fruit-chips/crunchy-banana-chips</loc>
+    <lastmod>2026-11-18T00:05:38.235Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="http://localhost:3000/crispy-fruit-chips/crunchy-banana-chips"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/crispy-fruit-chips/crunchy-banana-chips"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:3000/crispy-fruit-chips/crunchy-banana-chips"/>
   </url>
   <url>
     <loc>http://localhost:3000/chewy-soft-dried-fruits/sun-dried-egyptian-figs</loc>
     <lastmod>2026-11-18T00:05:38.334Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="http://localhost:3000/chewy-soft-dried-fruits/sun-dried-egyptian-figs"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/chewy-soft-dried-fruits/sun-dried-egyptian-figs"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:3000/chewy-soft-dried-fruits/sun-dried-egyptian-figs"/>
+  </url>
+  <url>
+    <loc>http://localhost:3000/en/chewy-soft-dried-fruits/sun-dried-egyptian-figs</loc>
+    <lastmod>2026-11-18T00:05:38.334Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="http://localhost:3000/chewy-soft-dried-fruits/sun-dried-egyptian-figs"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/chewy-soft-dried-fruits/sun-dried-egyptian-figs"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:3000/chewy-soft-dried-fruits/sun-dried-egyptian-figs"/>
   </url>
   <url>
     <loc>http://localhost:3000/drink-garnishes-culinary/dried-orange-wheels</loc>
     <lastmod>2026-11-18T00:05:38.378Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="http://localhost:3000/drink-garnishes-culinary/dried-orange-wheels"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/drink-garnishes-culinary/dried-orange-wheels"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:3000/drink-garnishes-culinary/dried-orange-wheels"/>
+  </url>
+  <url>
+    <loc>http://localhost:3000/en/drink-garnishes-culinary/dried-orange-wheels</loc>
+    <lastmod>2026-11-18T00:05:38.378Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="http://localhost:3000/drink-garnishes-culinary/dried-orange-wheels"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/drink-garnishes-culinary/dried-orange-wheels"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:3000/drink-garnishes-culinary/dried-orange-wheels"/>
   </url>
   <url>
     <loc>http://localhost:3000/drink-garnishes-culinary/dried-lemon-wheels</loc>
     <lastmod>2026-11-18T00:05:38.445Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="http://localhost:3000/drink-garnishes-culinary/dried-lemon-wheels"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/drink-garnishes-culinary/dried-lemon-wheels"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:3000/drink-garnishes-culinary/dried-lemon-wheels"/>
+  </url>
+  <url>
+    <loc>http://localhost:3000/en/drink-garnishes-culinary/dried-lemon-wheels</loc>
+    <lastmod>2026-11-18T00:05:38.445Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="http://localhost:3000/drink-garnishes-culinary/dried-lemon-wheels"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/drink-garnishes-culinary/dried-lemon-wheels"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:3000/drink-garnishes-culinary/dried-lemon-wheels"/>
   </url>
   <url>
     <loc>http://localhost:3000/bundles-gift-boxes/crispa-tasting-box</loc>
     <lastmod>2026-11-19T14:33:51.426Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="http://localhost:3000/bundles-gift-boxes/crispa-tasting-box"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/bundles-gift-boxes/crispa-tasting-box"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:3000/bundles-gift-boxes/crispa-tasting-box"/>
+  </url>
+  <url>
+    <loc>http://localhost:3000/en/bundles-gift-boxes/crispa-tasting-box</loc>
+    <lastmod>2026-11-19T14:33:51.426Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="http://localhost:3000/bundles-gift-boxes/crispa-tasting-box"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/bundles-gift-boxes/crispa-tasting-box"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:3000/bundles-gift-boxes/crispa-tasting-box"/>
   </url>
   <url>
     <loc>http://localhost:3000/snack-mixes/tropical-fruit-snack-mix</loc>
     <lastmod>2026-11-19T14:34:42.032Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="http://localhost:3000/snack-mixes/tropical-fruit-snack-mix"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/snack-mixes/tropical-fruit-snack-mix"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:3000/snack-mixes/tropical-fruit-snack-mix"/>
+  </url>
+  <url>
+    <loc>http://localhost:3000/en/snack-mixes/tropical-fruit-snack-mix</loc>
+    <lastmod>2026-11-19T14:34:42.032Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="http://localhost:3000/snack-mixes/tropical-fruit-snack-mix"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/snack-mixes/tropical-fruit-snack-mix"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:3000/snack-mixes/tropical-fruit-snack-mix"/>
   </url>
   <url>
     <loc>http://localhost:3000/dried-veggies-herbs/crispy-beetroot-chips</loc>
     <lastmod>2026-11-19T14:35:28.097Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="http://localhost:3000/dried-veggies-herbs/crispy-beetroot-chips"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/dried-veggies-herbs/crispy-beetroot-chips"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:3000/dried-veggies-herbs/crispy-beetroot-chips"/>
+  </url>
+  <url>
+    <loc>http://localhost:3000/en/dried-veggies-herbs/crispy-beetroot-chips</loc>
+    <lastmod>2026-11-19T14:35:28.097Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="http://localhost:3000/dried-veggies-herbs/crispy-beetroot-chips"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/dried-veggies-herbs/crispy-beetroot-chips"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:3000/dried-veggies-herbs/crispy-beetroot-chips"/>
   </url>
   <url>
     <loc>http://localhost:3000/dried-veggies-herbs/sun-dried-tomatoes-oregano</loc>
     <lastmod>2026-11-19T14:36:13.625Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="http://localhost:3000/dried-veggies-herbs/sun-dried-tomatoes-oregano"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/dried-veggies-herbs/sun-dried-tomatoes-oregano"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:3000/dried-veggies-herbs/sun-dried-tomatoes-oregano"/>
+  </url>
+  <url>
+    <loc>http://localhost:3000/en/dried-veggies-herbs/sun-dried-tomatoes-oregano</loc>
+    <lastmod>2026-11-19T14:36:13.625Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="http://localhost:3000/dried-veggies-herbs/sun-dried-tomatoes-oregano"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/dried-veggies-herbs/sun-dried-tomatoes-oregano"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:3000/dried-veggies-herbs/sun-dried-tomatoes-oregano"/>
   </url>
   <url>
     <loc>http://localhost:3000/chewy-soft-dried-fruits/dried-mango-slices-undefined</loc>
-    <lastmod>2026-11-20T18:54:30.033Z</lastmod>
+    <lastmod>2026-11-27T01:04:12.946Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="http://localhost:3000/chewy-soft-dried-fruits/dried-mango-slices-undefined"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/chewy-soft-dried-fruits/dried-mango-slices-undefined"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:3000/chewy-soft-dried-fruits/dried-mango-slices-undefined"/>
   </url>
   <url>
-    <loc>http://localhost:3000/chewy-soft-dried-fruits/dried-mango-slices</loc>
-    <lastmod>2026-11-20T18:54:30.033Z</lastmod>
+    <loc>http://localhost:3000/en/chewy-soft-dried-fruits/dried-mango-slices-undefined</loc>
+    <lastmod>2026-11-27T01:04:12.946Z</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="http://localhost:3000/chewy-soft-dried-fruits/dried-mango-slices-undefined"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/chewy-soft-dried-fruits/dried-mango-slices-undefined"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:3000/chewy-soft-dried-fruits/dried-mango-slices-undefined"/>
   </url>
 </urlset>

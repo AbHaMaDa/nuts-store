@@ -2,11 +2,15 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <sitemap>
     <loc>http://localhost:3000/sitemap-products.xml</loc>
-    <lastmod>2026-11-20T18:54:30.033Z</lastmod>
+    <lastmod>2026-11-27T01:04:12.946Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>http://localhost:3000/sitemap-categories.xml</loc>
-    <lastmod>2026-11-17T22:27:56.056Z</lastmod>
+    <lastmod>2026-11-27T21:52:51.580Z</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>http://localhost:3000/sitemap-cms-pages.xml</loc>
+    <lastmod>2026-11-27T22:13:35.712Z</lastmod>
   </sitemap>
   <sitemap>
     <loc>http://localhost:3000/sitemap-static.xml</loc>

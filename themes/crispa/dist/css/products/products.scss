@@ -226,16 +226,27 @@
   }
 }
 
-/* ================= 8. هوامش صفحة المنتجات/الكولكشن كاملة ================= */
+/* ================= 8. هوامش صفحة المنتجات/الكولكشن + السلة ================= */
 .page-width:has(.product__listing__right__column),
-.page-width:has(.category__right__column) {
+.page-width:has(.category__right__column),
+.page-width:has(.cart) {
   padding-inline: 20px !important;
 }
 
 @media (min-width: 768px) {
   .page-width:has(.product__listing__right__column),
-  .page-width:has(.category__right__column) {
+  .page-width:has(.category__right__column),
+  .page-width:has(.cart) {
     padding-inline: 32px !important;
+  }
+}
+
+/* الديسكتوب فقط (1024px فأكبر): تحديد عرض عمود السلة على 1320px
+   وتوسيطه — بدونها الصفحة بتمتد لعرض الشاشة وتسيب فراغ في النص */
+@media (min-width: 1024px) {
+  .page-width:has(.cart) {
+    max-width: 1320px !important;
+    margin-inline: auto !important;
   }
 }
 

@@ -1,13 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:3000/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="http://localhost:3000/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:3000/"/>
+  </url>
+  <url>
+    <loc>http://localhost:3000/en</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="http://localhost:3000/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:3000/"/>
   </url>
   <url>
     <loc>http://localhost:3000/products</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="http://localhost:3000/products"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/products"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:3000/products"/>
+  </url>
+  <url>
+    <loc>http://localhost:3000/en/products</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="http://localhost:3000/products"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:3000/en/products"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="http://localhost:3000/products"/>
   </url>
 </urlset>

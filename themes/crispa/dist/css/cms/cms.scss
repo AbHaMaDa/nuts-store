@@ -1,0 +1,23 @@
+/* ================= صفحات CMS الثابتة (/about وغيرها) =================
+   الـ DOM الحقيقي:
+   main.page-width.min-h-36
+     └─ .cms-page.mx-auto.max-w-3xl.py-8.md:py-12
+          ├─ h1.cms__page__heading
+          └─ .editor (محتوى الصفحة من EditorJS)
+*/
+
+/* ---------- هوامش الصفحة — نفس معالجة صفحات المنتجات/السلة ---------- */
+.page-width:has(.cms-page) {
+  padding-inline: 20px !important;
+}
+
+@media (min-width: 768px) {
+  .page-width:has(.cms-page) {
+    padding-inline: 32px !important;
+  }
+}
+
+/* اتجاه النص يتبع <html dir> — يمين في العربي ويسار في الإنجليزي */
+.cms-page {
+  text-align: start;
+}
